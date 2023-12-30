@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Cecilia Denise Fontana</h1>
 <h3 align="center">A passionate ux/ui designer and frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on [genius-studio-creativo-digital-](https://github.com/CeciDFontana/genius-studio-creativo-digital-)
+- 🔭 I’m currently working on [genius-studio-creativo-digital-](https://github.com/CeciDFontana/genius-studio-creativo-digital)
 
 - 🌱 I’m currently learning **Frameworks, courses, etc.**
 
