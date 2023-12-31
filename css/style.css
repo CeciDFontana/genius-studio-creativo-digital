@@ -364,13 +364,16 @@ main p {
 #footer i {
   font-size: 2em;
 }
+
+
 /* Ajustes generales pages servicios*/
+
 
 /*!--main pages servicios */
 
 .imgBannerpages {
   width: 100%;
-  height: 30vh;
+  height: 16vh;
   z-index: -1;
 }
 
@@ -380,6 +383,10 @@ main p {
   overflow: hidden;
 }
 
+.texto-centered {
+  text-align: left;
+}
+
 .bannerTextosservicios {
   position: absolute;
   height: 85%;
@@ -387,14 +394,12 @@ main p {
   top: 15%;
   bottom: 15%;
   font-family: 'Poppins', sans-serif;
-  background: rgba(255, 255, 255, 0.60);
   padding: 40px 0px 40px 106px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   flex-shrink: 0;
-
 }
 .bannerTítulopagesservicios {
   color: #000;
@@ -429,23 +434,6 @@ main p {
   line-height: normal;
   width: 1236px;
 }
-/*
-.contenedor {
-  display: flex;
-  justify-content: space-around;
-}
-
-..container div {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 100px;
-  writing-mode: vertical-rl;
- }
-*/
-
 
 
 /* Ajustes page contacto */
@@ -502,7 +490,7 @@ input[type="reset"]:hover {
 }
 .contacto-h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 4rem;
+  font-size: 76px;
   font-weight: 700;
 
 }
