@@ -1,24 +1,93 @@
 /*!--RESET--*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 62.5%;
-    display: flex !important;
-  }
-  
-  /*!--BODY--*/
-  body {
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .container-page {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  display: flex !important;
+}
+
+/*!--BODY--*/
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ /* Ajustes generales pages servicios*/
+
+/*!--main pages servicios */
+
+.imgBannerpages {
+  width: 100%;
+  height: 16vh;
+  z-index: -1;
+}
+
+.bannerServicios {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+}
+
+.texto-centered {
+  text-align: left;
+}
+
+.bannerTextosservicios {
+  position: absolute;
+  height: 85%;
+  width: 70%;
+  top: 15%;
+  bottom: 15%;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 0px 40px 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.bannerTítulopagesservicios {
+  color: #000;
+  font-family: Poppins;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 1236px;
+}
+
+.subtítuloPagesservicios {
+  color: #000;
+  font-family: Bebas Neue;
+  font-size: 40px;
+  font-style: normal;
+  display: flex;
+  width: 1236px;
+  height: 148px;
+}
+
+.ptextoPagesservicios {
+  font-size: 2rem;
+}
+
+.serviciosTítulopage {
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 1236px;
+}
