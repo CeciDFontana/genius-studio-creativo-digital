@@ -356,6 +356,14 @@ main p {
 
 /* Ajustes page contacto */
 /*!--main page form contacto--*/
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.div1, .div2 {
+  width: 50%; }
+
 main form div label {
   font-family: 'Poppins', sans-serif; }
 

@@ -213,7 +213,14 @@ main {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+.button1:hover {
+  background-color: #fff; /* Color de fondo al pasar el cursor */
+  color: #000; /* Color del texto al pasar el cursor */
+}
+
 
 main h2 {
   font-family: 'Poppins', sans-serif;
@@ -368,7 +375,6 @@ main p {
 
 /* Ajustes generales pages servicios*/
 
-
 /*!--main pages servicios */
 
 .imgBannerpages {
@@ -383,16 +389,11 @@ main p {
   overflow: hidden;
 }
 
-.texto-centered {
-  text-align: left;
+.bannerListadeservicios {
+  padding: 40px 0px 40px 106px;
 }
 
 .bannerTextosservicios {
-  position: absolute;
-  height: 85%;
-  width: 70%;
-  top: 15%;
-  bottom: 15%;
   font-family: 'Poppins', sans-serif;
   padding: 40px 0px 40px 106px;
   display: flex;
@@ -418,13 +419,18 @@ main p {
   font-size: 40px;
   font-style: normal;
   display: flex;
-  width: 1236px;
+  width: 1512px;
   height: 148px;
+ 
 }
 
 .ptextoPagesservicios {
   font-size: 2rem;
+  display: flex;
+  width: 1512px;
+  height: 180px;
 }
+
 
 .serviciosTítulopage {
   color: #000;
@@ -436,6 +442,17 @@ main p {
   width: 1236px;
 }
 
+/* Ajustes page quienes somos */
+/*!--main--*/
+
+
+
+
+
+
+
+
+
 
 /* Ajustes page contacto */
 /*!--main page form contacto--*/
@@ -444,7 +461,7 @@ main p {
   display: flex;
   justify-content: center;
   align-items: center;
- }
+}
 .div1, .div2 {
   width: 50%;
 }
@@ -472,7 +489,7 @@ label {
 
 input[type="text"],
 textarea {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -524,6 +541,7 @@ input[type="reset"]:hover {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
 }
+
 
 /* AJUSTES MEDIAQUERY */
 
