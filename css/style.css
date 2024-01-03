@@ -125,6 +125,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  border-radius: 10px;
 }
 
 /* Individual Cards */
@@ -197,7 +198,7 @@ main {
 }
 
 .cardImg3 {
-  width: 100%;
+  width: 60%;
   height: auto;
   margin-bottom: 10px;
   align-items: center;
@@ -217,15 +218,15 @@ main {
 }
 
 .button1:hover {
-  background-color: #fff; /* Color de fondo al pasar el cursor */
-  color: #000; /* Color del texto al pasar el cursor */
+  background-color: #fff;
+  /* Color de fondo al pasar el cursor */
+  color: #000;
+  /* Color del texto al pasar el cursor */
 }
-
 
 main h2 {
   font-family: 'Poppins', sans-serif;
   width: 784.218px;
-  /*height: 75px;*/
   justify-content: left;
   align-items: left;
 }
@@ -421,7 +422,7 @@ main p {
   display: flex;
   width: 1512px;
   height: 148px;
- 
+  padding-top: 20px;
 }
 
 .ptextoPagesservicios {
@@ -442,17 +443,6 @@ main p {
   width: 1236px;
 }
 
-/* Ajustes page quienes somos */
-/*!--main--*/
-
-
-
-
-
-
-
-
-
 
 /* Ajustes page contacto */
 /*!--main page form contacto--*/
@@ -462,7 +452,9 @@ main p {
   justify-content: center;
   align-items: center;
 }
-.div1, .div2 {
+
+.div1,
+.div2 {
   width: 50%;
 }
 
@@ -545,39 +537,22 @@ input[type="reset"]:hover {
 
 /* AJUSTES MEDIAQUERY */
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1440px) {
 
+  /*Nuevas Medidas*/
+  /*!--main section banner--*/
   /* Ajustes para la sección banner */
-  .bannerTextosPrincipal {
-    font-size: 4rem;
-  }
-
-  .textoBanner p {
-    line-height: 2rem;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-  }
-
   .imgbanner {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     z-index: -1;
-  }
-
-  .nav-link {
-    color: rgba(0, 0, 0, 0.50);
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
   }
 
   .bannerTextos {
     position: absolute;
-    height: 85%;
+    height: 730px;
     width: 70%;
-    top: 10%;
+    top: 12.5%;
     bottom: 10%;
     font-family: 'Poppins', sans-serif;
     background: rgba(255, 255, 255, 0.60);
@@ -589,111 +564,153 @@ input[type="reset"]:hover {
     flex-shrink: 0;
   }
 
+  /* Ajustes generales pages servicios*/
+  /*!--main pages servicios */
+
+  .bannerTítulopagesservicios {
+    font-size: 76px;
+  }
+
+  .subtítuloPagesservicios {
+    font-size: 35px;
+  }
+
+  .ptextoPagesservicios {
+    width: 1440px;
+  }
+
+  .serviciosTítulopage {
+    font-size: 35px;
+  }
+}
+
+/*Falta ajistas el subtítulo y el texto*/
+
+
+@media screen and (max-width: 1320px) {
+
+  /*Nuevas Medidas*/
+  /* Ajustes para sección banner */
+  /*!--main section banner--*/
+  .imgbanner {
+    width: 100%;
+    height: 75vh;
+    z-index: -1;
+  }
+
+  .bannerTextos {
+    position: absolute;
+    height: 65%;
+    width: 70%;
+    top: 12.5%;
+  }
+
   .bannerTextosPrincipal {
-    font-size: 5rem;
-    font-weight: 700;
-    font-size: 5rem;
-  }
-
-  .textoBanner {
-    height: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-
-  .textoBanner p {
-    line-height: 1.5rem;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-  }
-
-  .bannerDisciplines {
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-
-  /* Ajustes para la sección freelance */
-
-  .freelance {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3px 0;
-  }
-
-  .cardFreelance {
-    height: 33vw;
-    padding: 30px 70px 0px 70px;
-  }
-
-  .textoFreelance {
-    width: 50%;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .cardFreelance ul li {
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-
-  /* Ajustes para la sección concentrate */
-  .concentrate p {
-    font-size: 24px;
+    font-size: 4rem;
     font-weight: 700;
   }
 
-  /* Ajustes para la sección requerimientos */
-
-
-  .textR1 {
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Bebas Neue;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-
-  .textR2 {
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Bebas Neue;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
 }
 
 @media screen and (max-width: 1270px) {
 
-  /*Medidas*/
-  /* Ajustes para botón frelance */
+  /*Nuevas Medidas*/
+  /* Ajustes para banner */
+  .textoBanner p {
+    font-size: 2.5rem;
+  }
+
+  /* Ajustes para frelance */
   .tamañoTextoFreelance {
     font-size: 1.5rem;
   }
+
+  .cardFreelance {
+    height: 32.9vw;
+    padding: 20px 90px 0px 90px;
+  }
+
+  /* Ajustes para s. concentrate*/
+  .concentrate p {
+    font-size: 2.3rem;
+  }
+
+  /* Ajustes para la sección requerimientos */
+  .textR1 {
+    font-size: 54px;
+  }
+
+  .textR2 {
+    font-size: 86px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+
+  /* Ajustes para la sección freelance */
+  .textoFreelance {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+  .cardFreelance ul li {
+    font-size: 12px;
+  }
+
+  /* Ajustes page contacto */
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .div1,
+  .div2 {
+    width: 50%;
+  }
+
+
+  form {
+    padding: 15px;
+  }
+
+  label {
+    margin-bottom: 4px;
+  }
+
+  .contacto-h2 {
+    font-size: 66px;
+  }
+
+  .contacto-label {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 1210px) {
+/* Ajustes para la sección freelance */
 
-  /*Medidas*/
-  /* Ajustes para botón frelance */
-  .tamañoTextoFreelance {
-    font-size: 1.4rem;
+.cardFreelance {
+height: 32.9vw;
+padding: 15px 90px 0px 90px;
+  }
+
+.textoFreelance {
+width: 40%;
+font-family: 'Poppins', sans-serif;
+  }
+
+.cardFreelance ul li {
+color: #000;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
   }
 }
 
@@ -702,8 +719,9 @@ input[type="reset"]:hover {
   /*Medidas*/
   /* Ajustes para botón frelance */
   .tamañoTextoFreelance {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
+
 }
 
 @media screen and (max-width: 1190px) {
