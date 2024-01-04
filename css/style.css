@@ -86,10 +86,17 @@ main {
   flex-shrink: 0;
 }
 
-.textoBanner p {
+.textoBanner h1 {
   line-height: 2rem;
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
+  font-weight: 600;
+}
+
+.textoBanner p {
+  line-height: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
 }
 
 .bannerDisciplines {
@@ -264,14 +271,25 @@ main p {
   padding: 8vh 100px 8vh 100px;
 }
 
+.cardFreelance h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.cardFreelance p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .cardFreelance ul li {
   color: #000;
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
+
 
 /* Ajustes para la sección concentrate */
 .concentrate {
@@ -545,6 +563,7 @@ input[type="reset"]:hover {
 /* AJUSTES MEDIAQUERY */
 
 @media screen and (max-width: 1440px) {
+
   /*Nuevas Medidas*/
   /*!--main section banner--*/
   /* Ajustes para la sección banner */
@@ -570,6 +589,28 @@ input[type="reset"]:hover {
     flex-shrink: 0;
   }
 
+  /* Ajustes para la sección freelance */
+  .freelance {
+    padding: 2.5px 0;
+  }
+
+  .cardFreelance {
+    padding: 6vh 100px 6vh 100px;
+  }
+
+  .cardFreelance h2 {
+    font-size: 22px;
+  }
+
+  .cardFreelance p {
+    font-size: 16px;
+  }
+
+  .cardFreelance ul li {
+    font-size: 14px;
+
+  }
+
   /* Ajustes generales pages servicios*/
   /*!--main pages servicios */
 
@@ -590,8 +631,74 @@ input[type="reset"]:hover {
   }
 }
 
-/*Falta ajistas el subtítulo y el texto*/
 
+/*Falta ajustes el subtítulo y el texto en servicios*/
+
+
+@media screen and (max-width: 1370px) {
+
+  /*Nuevas Medidas*/
+  /* Ajustes para la sección banner */
+
+  .bannerTextos {
+    height: 580px;
+  }
+
+  /* Ajustes para la sección freelance */
+  .cardFreelance {
+    padding: 5vh 100px 5vh 100px;
+  }
+
+  .cardFreelance h2 {
+    font-size: 20px;
+  }
+
+  .cardFreelance p {
+    font-size: 16px;
+  }
+
+  .cardFreelance ul li {
+    font-size: 12px;
+
+  }
+
+  /* Ajustes generales pages servicios*/
+
+  .bannerTítulopagesservicios {
+    font-size: 76px;
+  }
+
+  .subtítuloPagesservicios {
+    font-size: 35px;
+  }
+
+  .ptextoPagesservicios {
+    width: 1440px;
+  }
+
+  .serviciosTítulopage {
+    font-size: 35px;
+  }
+}
+
+
+
+@media screen and (max-width: 1380px) {
+
+  /* Ajustes para la sección freelance */
+.cardFreelance h2 {
+    font-size: 18px;
+  }
+
+.cardFreelance p {
+    font-size: 14px;
+  }
+
+.cardFreelance ul li {
+    font-size: 11px;
+
+  }
+}
 
 @media screen and (max-width: 1320px) {
 
@@ -618,22 +725,28 @@ input[type="reset"]:hover {
 
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1260px) {
 
   /*Nuevas Medidas*/
-  /* Ajustes para banner */
-  .textoBanner p {
-    font-size: 2.5rem;
-  }
-
-  /* Ajustes para frelance */
-  .tamañoTextoFreelance {
-    font-size: 1.5rem;
+  /* Ajustes para la sección freelance */
+  .freelance {
+    padding: 2.5px 0;
   }
 
   .cardFreelance {
-    height: 32.9vw;
-    padding: 20px 90px 0px 90px;
+    padding: 6vh 100px 6vh 100px;
+  }
+
+  .cardFreelance h2 {
+    font-size: 20px;
+  }
+
+  .cardFreelance p {
+    font-size: 14px;
+  }
+
+  .cardFreelance ul li {
+    font-size: 12px;
   }
 
   /* Ajustes para s. concentrate*/
@@ -696,34 +809,34 @@ input[type="reset"]:hover {
     font-size: 2rem;
   }
 }
-
+/*
 @media screen and (max-width: 1210px) {
-/* Ajustes para la sección freelance */
+  /* Ajustes para la sección freelance 
 
-.cardFreelance {
-height: 32.9vw;
-padding: 15px 90px 0px 90px;
+  .cardFreelance {
+    height: 32.9vw;
+    padding: 15px 90px 0px 90px;
   }
 
-.cardFreelance {
-width: 40%;
-font-family: 'Poppins', sans-serif;
+  .cardFreelance {
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
   }
 
-.cardFreelance ul li {
-color: #000;
-font-family: 'Poppins', sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  .cardFreelance ul li {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 }
 
 @media screen and (max-width: 1210px) {
 
   /*Medidas*/
-  /* Ajustes para botón frelance */
+  /* Ajustes para botón frelance 
   .tamañoTextoFreelance {
     font-size: 1.2rem;
   }
@@ -733,7 +846,7 @@ line-height: normal;
 @media screen and (max-width: 1190px) {
 
   /*Medidas*/
-  /* Ajustes para botón frelance */
+  /* Ajustes para botón frelance 
   .tamañoTextoFreelance {
     font-size: 1.4rem;
   }
@@ -756,7 +869,7 @@ line-height: normal;
 @media screen and (max-width: 1148px) {
 
   /*Medidas*/
-  /* Ajustes para botón frelance */
+  /* Ajustes para botón frelance 
   .tamañoTextoFreelance {
     font-size: 1.5rem;
   }
@@ -778,7 +891,7 @@ line-height: normal;
 
 @media screen and (max-width: 992px) {
   /*Medidas*/
-  /* Ajustes para la sección banner */
+  /* Ajustes para la sección banner 
 
 
   .bannerTextosPrincipal {
@@ -797,7 +910,7 @@ line-height: normal;
     height: 60%;
   }
 
-  /* Ajustes para la sección card */
+  /* Ajustes para la sección card *
 
   .cardDiseño {
     width: 400px;
@@ -828,15 +941,15 @@ line-height: normal;
     font-size: 0.5rem;
     cursor: pointer
   }
-  
-  /*--Main--*/
+
+  /*--Main--
 
   main p {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
   }
 
-  /* Ajustes para la sección freelance */
+  /* Ajustes para la sección freelance 
   .freelance {
     padding: 3px 0;
   }
@@ -850,7 +963,7 @@ line-height: normal;
     font-weight: 700;
   }
 
-  /* Ajustes para la sección concentrate */
+  /* Ajustes para la sección concentrate 
   .concentrate p {
     font-size: 18px;
   }
@@ -859,8 +972,6 @@ line-height: normal;
 
 @media screen and (max-width: 430px) {}
 
-/*Medidas Iphone 14&15 Pro 430x932*/
 
 @media screen and (max-width: 320px) {}
 
-/*Medidas Iphone SE 320x568*/
