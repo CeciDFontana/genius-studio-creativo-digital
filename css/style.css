@@ -16,6 +16,10 @@ body {
   width: 100vw;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container-page {
   height: 100%;
   display: flex;
@@ -205,14 +209,17 @@ main {
 }
 
 .button1 {
+  width: 200px;
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.10);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin: 0 auto;
   border-style: none;
   color: #fff;
   padding: 10px 20px;
   font-family: 'Poppins', sans-serif;
-  font-size: 1em;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -246,14 +253,15 @@ main p {
 }
 
 .cardFreelance {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.40) 100%);
   height: 32.9vw;
-  padding: 30px 100px 0px 100px;
-}
-
-.textoFreelance {
-  width: 50%;
-  font-family: 'Poppins', sans-serif;
+  padding: 8vh 100px 8vh 100px;
 }
 
 .cardFreelance ul li {
@@ -375,7 +383,6 @@ main p {
 
 
 /* Ajustes generales pages servicios*/
-
 /*!--main pages servicios */
 
 .imgBannerpages {
@@ -538,7 +545,6 @@ input[type="reset"]:hover {
 /* AJUSTES MEDIAQUERY */
 
 @media screen and (max-width: 1440px) {
-
   /*Nuevas Medidas*/
   /*!--main section banner--*/
   /* Ajustes para la sección banner */
@@ -648,7 +654,7 @@ input[type="reset"]:hover {
 @media screen and (max-width: 1250px) {
 
   /* Ajustes para la sección freelance */
-  .textoFreelance {
+  .cardFreelance {
     width: 50%;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -699,7 +705,7 @@ height: 32.9vw;
 padding: 15px 90px 0px 90px;
   }
 
-.textoFreelance {
+.cardFreelance {
 width: 40%;
 font-family: 'Poppins', sans-serif;
   }
@@ -822,7 +828,7 @@ line-height: normal;
     font-size: 0.5rem;
     cursor: pointer
   }
-
+  
   /*--Main--*/
 
   main p {
