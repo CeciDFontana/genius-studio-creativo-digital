@@ -33,6 +33,14 @@ a {
   position: fixed;
   z-index: 99;
 }
+.nav-link {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 /*!--MAIN--*/
 main {
@@ -47,14 +55,6 @@ main {
   z-index: -1;
 }
 
-.nav-link {
-  color: rgba(0, 0, 0, 0.50);
-  font-family: Poppins;
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 
 .bannerTextos {
   position: absolute;

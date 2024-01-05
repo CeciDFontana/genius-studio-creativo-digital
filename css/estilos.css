@@ -85,6 +85,19 @@ div .container-page {
   flex-direction: column;
   justify-content: space-between; }
 
+header .bg-light {
+  background: #E7EFF2 !important;
+  position: fixed;
+  z-index: 99; }
+
+header nav a button div ul li a .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; }
+
 main {
   padding-top: 63.64px; }
   main section figure img .imgbanner {

@@ -1,24 +1,34 @@
 /*!--HEADER--*/
-div {
-  .container-page {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+div .container-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 header {
+  .bg-light {
+    background: #E7EFF2 !important;
+    position: fixed;
+    z-index: 99;
+  }
+
   nav {
-    a {
-    }
-    button {
-    }
-    div {
+    a button div {
       ul {
         li {
-          a{}
+          a {
+            .nav-link {
+              color: rgba(0, 0, 0, 0.50);
+              font-family: Poppins;
+              font-size: 1.8rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
         }
       }
     }
   }
-}
 }
