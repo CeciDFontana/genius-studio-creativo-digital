@@ -16,7 +16,10 @@ body {
   width: 100vw;
 }
 
-.container-page {
+a {
+  text-decoration: none;
+}
+div .container-page {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -24,69 +27,90 @@ body {
 }
 
 /* Ajustes generales pages servicios*/
-/*!--main pages servicios */
 
-.imgBannerpages {
-  width: 100%;
-  height: 16vh;
-  z-index: -1;
-}
-
-.bannerServicios {
-  position: relative;
-  height: 700px;
-  overflow: hidden;
-}
-
-.bannerListadeservicios {
-  padding: 40px 0px 40px 106px;
-}
-
-.bannerTextosservicios {
-  font-family: 'Poppins', sans-serif;
-  padding: 40px 0px 40px 106px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.bannerTítulopagesservicios {
-  color: #000;
-  font-family: Poppins;
-  font-size: 86px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  width: 1236px;
-}
-
-.subtítuloPagesservicios {
-  color: #000;
-  font-family: Bebas Neue;
-  font-size: 40px;
-  font-style: normal;
-  display: flex;
-  width: 1512px;
-  height: 148px;
-  padding-top: 20px;
-}
-
-.ptextoPagesservicios {
-  font-size: 2rem;
-  display: flex;
-  width: 1512px;
-  height: 180px;
-}
-
-
-.serviciosTítulopage {
-  color: #000;
-  font-family: Poppins;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  width: 1236px;
+main {
+  section {
+    .bannerServicios {
+      position: relative;
+      height: 700px;
+      overflow: hidden;
+    }
+    
+    div {
+      .texto-centered
+      figure {
+        img {
+          .imgBannerpages {
+            width: 100%;
+            height: 16vh;
+            z-index: -1;
+          }
+        }
+      }
+      div {
+        .bannerTextosservicios {
+          font-family: 'Poppins', sans-serif;
+          padding: 40px 0px 40px 106px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+          flex-shrink: 0;
+        }
+        div {
+          h2 {
+            .bannerTítulopagesservicios {
+              color: #000;
+              font-family: Poppins;
+              font-size: 86px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              width: 1236px;
+            }
+          }
+          p {
+            .subtítuloPagesservicios {
+              color: #000;
+              font-family: Bebas Neue;
+              font-size: 40px;
+              font-style: normal;
+              display: flex;
+              width: 1512px;
+              height: 148px;
+              padding-top: 20px;
+            }
+          }
+          p {
+            .ptextoPagesservicios {
+              font-size: 2rem;
+              display: flex;
+              width: 1512px;
+              height: 180px;
+            }
+          }
+        }
+      }
+    }
+  }
+  section {
+    .bannerListadeservicios {
+      padding: 40px 0px 40px 106px;
+    }
+    div {
+      div {
+        h2 {
+          .serviciosTítulopage {
+            color: #000;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            width: 1236px;
+          }
+        }
+      }
+    }
+  }
 }

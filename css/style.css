@@ -289,7 +289,9 @@ main p {
   font-weight: 600;
   line-height: normal;
 }
-
+.d-block {
+  width: 100%;
+}
 
 /* Ajustes para la sección concentrate */
 .concentrate {

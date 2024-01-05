@@ -425,7 +425,11 @@ main {
     div {
       div {
         div {
-          img {}
+          img {
+            .d-block {
+              width: 100%;
+            }
+          }
         }
       }
     }
