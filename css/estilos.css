@@ -87,11 +87,11 @@ div .container-page {
 
 main {
   padding-top: 63.64px; }
-  main figure img .imgbanner {
+  main section figure img .imgbanner {
     width: 100%;
     height: 100vh;
     z-index: -1; }
-  main figure div .bannerTextos {
+  main section div .bannerTextos {
     position: absolute;
     height: 85%;
     width: 70%;
@@ -105,32 +105,240 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0; }
-    main figure div .bannerTextos div .bannerDisciplines {
-      height: 70%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-shrink: 0; }
-    main figure div .bannerTextos div h2 .bannerTextosPrincipal {
-      font-size: 5rem;
-      font-weight: 700; }
-    main figure div .bannerTextos div div .textoBanner {
-      height: 17%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-shrink: 0; }
-    main figure div .bannerTextos div div h1 .textoBanner h1 {
-      line-height: 2rem;
-      font-family: 'Poppins', sans-serif;
-      font-size: 3rem;
-      font-weight: 600; }
-    main figure div .bannerTextos div div h1 p .textoBanner p {
-      line-height: 2rem;
-      font-family: 'Poppins', sans-serif;
-      font-size: 2.5rem; }
+  main section div div .bannerDisciplines {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0; }
+  main section div div h2 .bannerTextosPrincipal {
+    font-size: 5rem;
+    font-weight: 700; }
+  main section div div .textoBanner {
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0; }
+  main section div div h1 .textoBanner h1 {
+    line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 600; }
+  main section div div p .textoBanner p {
+    line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem; }
+  main section .card-container {
+    width: 100%;
+    height: 792px;
+    padding: 2px 100px 4px 100px;
+    align-items: flex-start;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    display: flex; }
+  main section div .cardDiseño {
+    width: 400px;
+    height: 686px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms easy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px; }
+  main section div .diseño1 {
+    background: linear-gradient(180deg, rgba(91, 222, 196, 0.2) 0%, rgba(91, 222, 196, 0.8) 100%); }
+    main section div .diseño1:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3%); }
+  main section div h3 .títuloCard {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  main section div p .pnegritaCard {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  main section div p .card-container p {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left; }
+  main section div figure .alinearImg {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  main section div figure img .cardImg1 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center; }
+  main section div a .button1 {
+    width: 200px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0 auto;
+    border-style: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; }
+    main section div a .button1:hover {
+      background-color: #fff;
+      color: #000; }
+  main section div .cardDiseño {
+    width: 400px;
+    height: 686px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms easy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px; }
+  main section div .diseño2 {
+    background: linear-gradient(180deg, rgba(217, 24, 91, 0.2) 0%, rgba(217, 24, 91, 0.8) 100%); }
+    main section div .diseño2:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3%); }
+  main section div h3 .títuloCard {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  main section div p .pnegritaCard {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  main section div p .card-container p {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left; }
+  main section div figure .alinearImg {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  main section div figure img .cardImg2 {
+    width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center; }
+  main section div a .button1 {
+    width: 200px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0 auto;
+    border-style: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; }
+  main section div .cardDiseño {
+    width: 400px;
+    height: 686px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms easy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px; }
+  main section div .diseño3 {
+    background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
+    main section div .diseño3:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3%); }
+  main section div h3 .títuloCard {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  main section div p .pnegritaCard {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; }
+  main section div p .card-container p {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left; }
+  main section div figure .alinearImg {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  main section div figure img .cardImg3 {
+    width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center; }
+  main section div a .button1 {
+    width: 200px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0 auto;
+    border-style: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; }
 
 /* Ajustes page contacto */
 /*!--main page form contacto--*/
