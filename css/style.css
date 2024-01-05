@@ -296,9 +296,7 @@ main p {
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  /* Single column grid */
   gap: 20px;
-  /* Spacing between elements */
   text-align: center;
   margin: 90px 0px;
 }
@@ -307,7 +305,6 @@ main p {
   width: 100%;
   height: auto;
   opacity: 0.5;
-
 }
 
 .concentrate p {
