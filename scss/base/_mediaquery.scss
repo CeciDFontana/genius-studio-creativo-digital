@@ -1,38 +1,21 @@
 /* AJUSTES MEDIAQUERY */
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1440px) {
 
+  /*Nuevas Medidas*/
+  /*!--main section banner--*/
   /* Ajustes para la sección banner */
-  .bannerTextosPrincipal {
-    font-size: 4rem;
-  }
-
-  .textoBanner p {
-    line-height: 2rem;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-  }
-
   .imgbanner {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     z-index: -1;
-  }
-
-  .nav-link {
-    color: rgba(0, 0, 0, 0.50);
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
   }
 
   .bannerTextos {
     position: absolute;
-    height: 85%;
+    height: 730px;
     width: 70%;
-    top: 10%;
+    top: 12.5%;
     bottom: 10%;
     font-family: 'Poppins', sans-serif;
     background: rgba(255, 255, 255, 0.60);
@@ -44,254 +27,224 @@
     flex-shrink: 0;
   }
 
-  .bannerTextosPrincipal {
-    font-size: 5rem;
-    font-weight: 700;
-    font-size: 5rem;
-  }
-
-  .textoBanner {
-    height: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-
-  .textoBanner p {
-    line-height: 1.5rem;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-  }
-
-  .bannerDisciplines {
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-
   /* Ajustes para la sección freelance */
-
   .freelance {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3px 0;
+    padding: 2.5px 0;
   }
 
   .cardFreelance {
-    height: 33vw;
-    padding: 30px 70px 0px 70px;
+    padding: 6vh 100px 6vh 100px;
   }
 
-  .textoFreelance {
-    width: 50%;
-    font-family: 'Poppins', sans-serif;
+  .cardFreelance h2 {
+    font-size: 22px;
+  }
+
+  .cardFreelance p {
+    font-size: 16px;
   }
 
   .cardFreelance ul li {
-    color: #000;
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+
   }
 
-  /* Ajustes para la sección concentrate */
-  .concentrate p {
-    font-size: 24px;
-    font-weight: 700;
+  /* Ajustes generales pages servicios*/
+  /*!--main pages servicios */
+
+  .bannerTítulopagesservicios {
+    font-size: 76px;
   }
 
-  /* Ajustes para la sección requerimientos */
-
-
-  .textR1 {
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Bebas Neue;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  .subtítuloPagesservicios {
+    font-size: 35px;
   }
 
-  .textR2 {
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Bebas Neue;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  .ptextoPagesservicios {
+    width: 1440px;
+  }
+
+  .serviciosTítulopage {
+    font-size: 35px;
   }
 }
 
-@media screen and (max-width: 1270px) {
 
-  /*Medidas*/
-  /* Ajustes para botón frelance */
-  .tamañoTextoFreelance {
-    font-size: 1.5rem;
-  }
-}
+/*Falta ajustes el subtítulo y el texto en servicios*/
 
-@media screen and (max-width: 1210px) {
 
-  /*Medidas*/
-  /* Ajustes para botón frelance */
-  .tamañoTextoFreelance {
-    font-size: 1.4rem;
-  }
-}
+@media screen and (max-width: 1370px) {
 
-@media screen and (max-width: 1210px) {
-
-  /*Medidas*/
-  /* Ajustes para botón frelance */
-  .tamañoTextoFreelance {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 1190px) {
-
-  /*Medidas*/
-  /* Ajustes para botón frelance */
-  .tamañoTextoFreelance {
-    font-size: 1.4rem;
-  }
-
-  .cardFreelance ul li {
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .consultaBtn {
-    font-size: 12px;
-  }
-
-}
-
-@media screen and (max-width: 1148px) {
-
-  /*Medidas*/
-  /* Ajustes para botón frelance */
-  .tamañoTextoFreelance {
-    font-size: 1.5rem;
-  }
-
-  .cardFreelance ul li {
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 120px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .consultaBtn {
-    font-size: 10px;
-  }
-
-}
-
-@media screen and (max-width: 992px) {
-  /*Medidas*/
+  /*Nuevas Medidas*/
   /* Ajustes para la sección banner */
 
-
-  .bannerTextosPrincipal {
-    font-size: 3rem;
-    font-weight: 700;
-  }
-
-
-  .textoBanner p {
-    line-height: 2rem;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-  }
-
-  .bannerDisciplines {
-    height: 60%;
-  }
-
-  /* Ajustes para la sección card */
-
-  .cardDiseño {
-    width: 400px;
-    height: 686px;
-    padding: 50px;
-  }
-
-  .títuloCard {
-    font-size: 1.5rem;
-  }
-
-  .card-container .pnegritaCard {
-    font-size: 1.5rem;
-  }
-
-  .card-container p {
-    font-size: 1.5rem;
-  }
-
-  .button1 {
-    border-radius: 100px;
-    background: rgba(255, 255, 255, 0.10);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-style: none;
-    color: #fff;
-    padding: 2.5px 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.5rem;
-    cursor: pointer
-  }
-
-  /*--Main--*/
-
-  main p {
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+  .bannerTextos {
+    height: 580px;
   }
 
   /* Ajustes para la sección freelance */
-  .freelance {
-    padding: 3px 0;
+  .cardFreelance {
+    padding: 5vh 100px 5vh 100px;
   }
 
-  .cardFreelance {
-    padding: 30px 80px 0px 80px;
+  .cardFreelance h2 {
+    font-size: 20px;
+  }
+
+  .cardFreelance p {
+    font-size: 16px;
   }
 
   .cardFreelance ul li {
-    font-size: 10px;
-    font-weight: 700;
+    font-size: 12px;
+
   }
 
-  /* Ajustes para la sección concentrate */
-  .concentrate p {
+  /* Ajustes generales pages servicios*/
+
+  .bannerTítulopagesservicios {
+    font-size: 76px;
+  }
+
+  .subtítuloPagesservicios {
+    font-size: 35px;
+  }
+
+  .ptextoPagesservicios {
+    width: 1440px;
+  }
+
+  .serviciosTítulopage {
+    font-size: 35px;
+  }
+}
+
+
+
+@media screen and (max-width: 1380px) {
+
+  /* Ajustes para la sección freelance */
+.cardFreelance h2 {
     font-size: 18px;
   }
 
+.cardFreelance p {
+    font-size: 14px;
+  }
+
+.cardFreelance ul li {
+    font-size: 11px;
+
+  }
 }
 
-@media screen and (max-width: 430px) {}
+@media screen and (max-width: 1320px) {
 
-/*Medidas Iphone 14&15 Pro 430x932*/
+  /*Nuevas Medidas*/
+  /* Ajustes para sección banner */
+  /*!--main section banner--*/
+  .imgbanner {
+    width: 100%;
+    height: 75vh;
+    z-index: -1;
+  }
 
-@media screen and (max-width: 320px) {}
+  .bannerTextos {
+    position: absolute;
+    height: 65%;
+    width: 70%;
+    top: 12.5%;
+  }
 
-/*Medidas Iphone SE 320x568*/
+  .bannerTextosPrincipal {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+}
+
+@media screen and (max-width: 1260px) {
+
+  /*Nuevas Medidas*/
+  /* Ajustes para la sección freelance */
+  .freelance {
+    padding: 2.5px 0;
+  }
+
+  .cardFreelance {
+    padding: 6vh 100px 6vh 100px;
+  }
+
+  .cardFreelance h2 {
+    font-size: 20px;
+  }
+
+  .cardFreelance p {
+    font-size: 14px;
+  }
+
+  .cardFreelance ul li {
+    font-size: 12px;
+  }
+
+  /* Ajustes para s. concentrate*/
+  .concentrate p {
+    font-size: 2.3rem;
+  }
+
+  /* Ajustes para la sección requerimientos */
+  .textR1 {
+    font-size: 54px;
+  }
+
+  .textR2 {
+    font-size: 86px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+
+  /* Ajustes para la sección freelance */
+  .cardFreelance {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+  .cardFreelance ul li {
+    font-size: 12px;
+  }
+
+  /* Ajustes page contacto */
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .div1,
+  .div2 {
+    width: 50%;
+  }
+
+
+  form {
+    padding: 15px;
+  }
+
+  label {
+    margin-bottom: 4px;
+  }
+
+  .contacto-h2 {
+    font-size: 66px;
+  }
+
+  .contacto-label {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+  
+}

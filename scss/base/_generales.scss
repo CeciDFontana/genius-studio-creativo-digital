@@ -23,8 +23,7 @@ body {
   justify-content: space-between;
 }
 
- /* Ajustes generales pages servicios*/
-
+/* Ajustes generales pages servicios*/
 /*!--main pages servicios */
 
 .imgBannerpages {
@@ -39,16 +38,11 @@ body {
   overflow: hidden;
 }
 
-.texto-centered {
-  text-align: left;
+.bannerListadeservicios {
+  padding: 40px 0px 40px 106px;
 }
 
 .bannerTextosservicios {
-  position: absolute;
-  height: 85%;
-  width: 70%;
-  top: 15%;
-  bottom: 15%;
   font-family: 'Poppins', sans-serif;
   padding: 40px 0px 40px 106px;
   display: flex;
@@ -74,13 +68,18 @@ body {
   font-size: 40px;
   font-style: normal;
   display: flex;
-  width: 1236px;
+  width: 1512px;
   height: 148px;
+  padding-top: 20px;
 }
 
 .ptextoPagesservicios {
   font-size: 2rem;
+  display: flex;
+  width: 1512px;
+  height: 180px;
 }
+
 
 .serviciosTítulopage {
   color: #000;
