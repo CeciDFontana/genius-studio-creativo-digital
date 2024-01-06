@@ -1,27 +1,14 @@
 /*!--HEADER--*/
-header {
-  .bg-light {
-    background: #E7EFF2 !important;
-    position: fixed;
-    z-index: 99;
-  }
-
-  nav {
-    a button div {
-      ul {
-        li {
-          a {
-            .nav-link {
-              color: rgba(0, 0, 0, 0.50);
-              font-family: Poppins;
-              font-size: 1.8rem;
-              font-style: normal;
-              font-weight: 400;
-              line-height: normal;
-            }
-          }
-        }
-      }
-    }
+.bg-light {
+  background: #e7eff2 !important;
+  position: fixed;
+  z-index: 99;
+  .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 }
