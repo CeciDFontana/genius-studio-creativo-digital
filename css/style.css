@@ -41,6 +41,9 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+.navBar__logo {
+  border-radius: 2%;
+}
 
 /*!--MAIN--*/
 main {
@@ -409,16 +412,10 @@ main p {
   font-family: 'Poppins', sans-serif;
 }
 
-*/
-
 /* Ajustes generales pages servicios*/
 /*!--main pages servicios */
 
-.imgBannerpages {
-  width: 100%;
-  height: 16vh;
-  z-index: -1;
-}
+
 
 .bannerServicios {
   position: relative;
@@ -482,37 +479,27 @@ main p {
 
 /* Ajustes page contacto */
 /*!--main page form contacto--*/
-
+.imgBannerpages {
+  width: 100%;
+  height: 16vh;
+  z-index: -1;
+}
 .contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.div1,
-.div2 {
+.div1_formContacto,
+.div2__formContacto {
   width: 50%;
 }
 
-main form div label {
-  font-family: 'Poppins', sans-serif;
-}
-
-form {
+.formContacto {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-main form div h2 {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
 }
 
 input[type="text"],
@@ -549,13 +536,16 @@ input[type="reset"]:hover {
   font-family: 'Poppins', sans-serif;
   font-size: 76px;
   font-weight: 700;
-
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .contacto-label {
   line-height: 2rem;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .contacto-input {
@@ -569,6 +559,13 @@ input[type="reset"]:hover {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
 }
+.pformContacto {
+  line-height: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
 
 
 /* AJUSTES MEDIAQUERY */

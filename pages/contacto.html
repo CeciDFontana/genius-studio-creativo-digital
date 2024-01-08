@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/estilos.css" />
   <title>GENIUS Studio Creativo Digital</title>
 </head>
 
@@ -58,43 +58,51 @@
       </nav>
     </header>
     <main>
-      <section>
-
+      <section class="mainContacto">
         <figure>
           <img class="imgBannerpages" src="../img/contacto/desktop.png" alt="img">
         </figure>
         <div class="contenedor bannerListadeservicios">
-          <div class="div1">
-            <form action="" method="" enctype="">
-              <div>
-                <h2 class="contacto-h2">Contacto</h2>
+          <div class="div1__formContacto">
+            <form class="formContacto" action="" method="" enctype="">
+              <h2 class="contacto-h2">Contacto</h2>
+
+              <div class="formContacto__inputtextNombre">
                 <label class="contacto-label" for="nombre">Nombre</label>
                 <input class="contacto-input" type="text" name="nombre" id="nombre">
               </div>
-              <div>
+
+              <div class="formContacto__inputtextApellido">
                 <label class="contacto-label" for="apellido">Apellido</label>
                 <input class="contacto-input" type="text" name="apellido" id="apellido">
               </div>
-              <div>
+
+              <div class="formContacto__inputtextEmail">
                 <label class="contacto-label" for="email">Email</label>
                 <input class="contacto-input" type="text" name="email" id="email">
               </div>
-              <div>
+
+              <div class="formContacto__inputtextTareatext">
                 <textarea name="" id="" cols="30" rows="10"></textarea>
               </div>
+
               <div class="contacto-button">
                 <input type="submit">
                 <input type="reset">
               </div>
             </form>
           </div>
-          <div class="div2">
+
+          <div class="div2__formContacto">
             <div>
-              <p>San Pedro, Buenos Aires - Argentina.</p>
+              <p class="pformContacto">San Pedro, Buenos Aires - Argentina.</p>
             </div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26558.028064892533!2d-59.68586559990068!3d-33.689446182598665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ba22ed0eb1a55f%3A0xe5f2bb57c8ee993a!2sSan%20Pedro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1704211340329!5m2!1ses-419!2sar"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
@@ -102,9 +110,11 @@
       </section>
   </main>
   <footer id="footer">
-    <div><i class='bx bxl-instagram-alt'></i></div>
-    <div><i class='bx bxl-facebook-circle'></i></div>
-    <div><i class='bx bxl-behance'></i></div>
+    <div class="social-icons">
+      <i class='bx bxl-instagram-alt'></i>
+      <i class='bx bxl-facebook-circle'></i>
+      <i class='bx bxl-behance'></i>
+    </div>
     <p>GENIUS Studio Creativo Digital | © Copyright 2023 | Todos los derechos Reservados</p>
   </footer>
 

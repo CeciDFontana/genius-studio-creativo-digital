@@ -3,12 +3,25 @@
   background: #e7eff2 !important;
   position: fixed;
   z-index: 99;
-  .nav-link {
-    color: rgba(0, 0, 0, 0.5);
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  nav {
+    a {
+      .navBar__logo {
+        border-radius: 2%;
+      }
+    }
   }
+div {
+  ul {
+    li {
+      .nav-link {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
 }
