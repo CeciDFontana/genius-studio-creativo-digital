@@ -459,7 +459,6 @@ main p {
   font-size: 2rem;
   display: flex;
   width: 1512px;
-  height: 180px;
 }
 
 
@@ -474,7 +473,12 @@ main p {
 }
 
 .h2Servicios {
-  font-size: 700;
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* Ajustes page contacto */
