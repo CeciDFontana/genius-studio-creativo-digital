@@ -414,9 +414,6 @@ main p {
 
 /* Ajustes generales pages servicios*/
 /*!--main pages servicios */
-
-
-
 .bannerServicios {
   position: relative;
   height: 700px;
@@ -476,6 +473,9 @@ main p {
   width: 1236px;
 }
 
+.h2Servicios {
+  font-size: 700;
+}
 
 /* Ajustes page contacto */
 /*!--main page form contacto--*/
