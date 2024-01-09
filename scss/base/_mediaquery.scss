@@ -1,53 +1,71 @@
 /* AJUSTES MEDIAQUERY */
 
 @media screen and (max-width: 1440px) {
-
   /*Nuevas Medidas*/
-  /*!--main section banner--*/
   /* Ajustes para la sección banner */
-  .imgbanner {
-    width: 100%;
-    height: 80vh;
-    z-index: -1;
+  main {
+    padding-top: 63.64px;
+    .bannerInicio {
+      .figurebannerInicio {
+        .imgbanner {
+          height: 90vh;
+        }
+      }
+      .bannerTextos {
+        height: 85%;
+        width: 70%;
+        top: 10.2%;
+        bottom: 15%;
+        .bannerDisciplines {
+          height: 65%;
+          .bannerTextosPrincipal {
+            font-size: 4.5rem;
+          }
+        }
+      }
+      .textoBanner {
+        height: 15%;
+        h1 {
+          line-height: 2rem;
+          font-size: 3rem;
+          }
+        p {
+          line-height: 2rem;
+          font-size: 2.5rem;
+        }  
+        }  
+      } 
+        /* Ajustes para la sección freelance */
+.contenedorFreelance {
+  padding: 2.5px 0;
+  .div1cardFreelance {
+    width: 50%;
+    height: 50%;
+    padding: 5vh 90px 5vh 90px;
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .ulFreelance {
+      .liFreelance {
+        font-size: 12px;
+      }
+    }
   }
-
-  .bannerTextos {
-    position: absolute;
-    height: 730px;
-    width: 70%;
-    top: 12.5%;
-    bottom: 10%;
-    font-family: 'Poppins', sans-serif;
-    background: rgba(255, 255, 255, 0.60);
-    padding: 40px 0px 40px 106px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
+}
+  .div2cardFreelance {
+    width: 50%;
+    height: 50%;
+    .imágenrightFreelance {
+      width: 100%;
+    }
   }
+}
+}
 
-  /* Ajustes para la sección freelance */
-  .freelance {
-    padding: 2.5px 0;
-  }
 
-  .cardFreelance {
-    padding: 6vh 100px 6vh 100px;
-  }
-
-  .cardFreelance h2 {
-    font-size: 22px;
-  }
-
-  .cardFreelance p {
-    font-size: 16px;
-  }
-
-  .cardFreelance ul li {
-    font-size: 14px;
-
-  }
 
   /* Ajustes generales pages servicios*/
   /*!--main pages servicios */
@@ -67,7 +85,7 @@
   .serviciosTítulopage {
     font-size: 35px;
   }
-}
+
 
 
 /*Falta ajustes el subtítulo y el texto en servicios*/
