@@ -68,8 +68,8 @@
   }
 }
 #footer {
-  background: #E7EFF2 !important;
-  color: rgba(0, 0, 0, 0.50);
+  background: #e7eff2 !important;
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 10px;
   width: 100%;
@@ -85,7 +85,7 @@
   }
   p {
     font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 }
 
@@ -3326,10 +3326,468 @@ main {
 
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 430px) */
-@media screen and (max-width: 430px) {}
+@media screen and (max-width: 430px) {
+  main {
+    padding-top: 63.64px;
+    .bannerInicio {
+      .figurebannerInicio {
+        .imgbanner {
+          width: 100%;
+          height: 50vh;
+          z-index: -1;
+        }
+      }
+      .bannerTextos {
+        position: absolute;
+        height: 45%;
+        width: 75%;
+        top: 10.2%;
+        bottom: 15%;
+        font-family: "Poppins", sans-serif;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 15px 0px 15px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-shrink: 0;
+        .bannerDisciplines {
+          height: 65%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+          flex-shrink: 0;
+          .bannerTextosPrincipal {
+            font-size: 2rem;
+            font-weight: 700;
+          }
+        }
+      }
+      .textoBanner {
+        height: 15%;
+        h1 {
+          line-height: 2rem;
+          font-size: 1.2rem;
+        }
+        p {
+          line-height: 2rem;
+          font-size: 1rem;
+        }
+      }
+    }
+    .card-container {
+      width: 100%;
+      height: 792px;
+      padding: 1px 15px 2px 15px;
+      align-items: center;
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10%;
+      display: flex;
+      .cardDiseño {
+        width: 400px;
+        height: 686px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms easy;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 10px;
+      }
+      .diseño1 {
+        background: linear-gradient(
+          180deg,
+          rgba(91, 222, 196, 0.2) 0%,
+          rgba(91, 222, 196, 0.8) 100%
+        );
+        &:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+      .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+      }
+      .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardImg1 {
+          width: 40%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center;
+        }
+      }
+      .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 6px 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 0.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+          background-color: #fff;
+          color: #000;
+        }
+      }
+      .diseño2 {
+        background: linear-gradient(
+          180deg,
+          rgba(217, 24, 91, 0.2) 0%,
+          rgba(217, 24, 91, 0.8) 100%
+        );
+        &:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+      .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+      }
+      .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardImg2 {
+          width: 60%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center;
+        }
+      }
+      .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 8px 12px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+          background-color: #fff;
+          color: #000;
+        }
+      }
 
+      .diseño3 {
+        background: linear-gradient(
+          180deg,
+          rgba(219, 207, 0, 0.2) 0%,
+          rgba(219, 207, 0, 0.8) 100%
+        );
+        &:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+      .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+      }
+      .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardImg3 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center;
+        }
+      }
+      .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 8px 16px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+          background-color: #fff;
+          color: #000;
+        }
+      }
+    }
+    .contenedorFreelance {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1px 0;
+      .div1cardFreelance {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(
+          180deg,
+          rgba(91, 222, 196, 0.15) 0%,
+          rgba(6, 87, 124, 0.4) 100%
+        );
+        padding: 2.5vh 62px 2.5vh 62px;
+        height: 32.9vw;
+        h2 {
+          font-weight: 700;
+          font-size: 14px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 8px;
+        }
+        .ulFreelance {
+          .liFreelance {
+            color: #000;
+            font-family: "Poppins", sans-serif;
+            font-size: 7px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+        .button1 {
+          width: 200px;
+          border-radius: 100px;
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-align: center;
+          margin: 0 auto;
+          border-style: none;
+          color: #fff;
+          padding: 8px 16px;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.2rem;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s;
+          &:hover {
+            background-color: #fff;
+            color: #000;
+          }
+        }
+      }
+      .div2cardFreelance {
+        width: 100%;
+        height: auto;
+        .imágenrightFreelance {
+          width: 100%;
+        }
+      }
+    }
+    .contenedorConcentrate {
+      .concentrate {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+        margin: 0px 0px;
+        .imágenConcentrate {
+          width: 100%;
+          height: auto;
+          opacity: 0.5;
+        }
+      }
+      .pConcentrate {
+        position: absolute;
+        bottom: 19px;
+        right: 13px;
+        padding: 15px;
+        max-width: 40%;
+        color: #000;
+        font-family: "Poppins", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        border-radius: 0px 20px;
+        background: rgba(255, 255, 255, 0.6);
+        display: flex;
+        width: 793px;
+        height: 86px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .requerimientos {
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+      box-sizing: border-box;
+      background: linear-gradient(
+        180deg,
+        rgba(219, 207, 0, 0.5) 0%,
+        rgba(217, 97, 2, 0.5) 26.56%,
+        rgba(217, 24, 91, 0.5) 52.08%,
+        rgba(103, 46, 217, 0.5) 75%,
+        rgba(14, 138, 157, 0.5) 100%
+      );
+      padding: 10rem 0;
+      margin: 90px 0px;
+      .textR1 {
+        color: #fff;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .textR2 {
+        color: #fff;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 8px 16px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+          background-color: #fff;
+          color: #000;
+        }
+      }
+    }
+  }
+  #footer {
+    background: #e7eff2 !important;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    .social-icons {
+      display: inline-block;
+      margin: 0 10px;
+      i {
+        font-size: 1.5em;
+        margin-right: 15px;
+      }
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
 
 
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 320px) */
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+}
