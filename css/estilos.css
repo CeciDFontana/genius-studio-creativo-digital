@@ -3258,17 +3258,17 @@ main .bannerListadeservicios {
     padding-top: 63.64px; }
     main .bannerInicio .figurebannerInicio .imgbanner {
       width: 100%;
-      height: 50vh;
+      height: 60vh;
       z-index: -1; }
     main .bannerInicio .bannerTextos {
       position: absolute;
       height: 45%;
-      width: 75%;
-      top: 10.2%;
+      width: 85%;
+      top: 15%;
       bottom: 15%;
       font-family: "Poppins", sans-serif;
       background: rgba(255, 255, 255, 0.6);
-      padding: 15px 0px 15px 40px;
+      padding: 20px 0px 20px 40px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -3288,24 +3288,24 @@ main .bannerListadeservicios {
       height: 15%; }
       main .bannerInicio .textoBanner h1 {
         line-height: 2rem;
-        font-size: 1.2rem; }
+        font-size: 1.3rem; }
       main .bannerInicio .textoBanner p {
         line-height: 2rem;
-        font-size: 1rem; }
+        font-size: 1.1rem; }
     main .card-container {
       width: 100%;
       height: 792px;
-      padding: 1px 15px 2px 15px;
+      padding: 1px 100px 1.5px 100px;
       align-items: center;
       gap: 20px;
       display: flex;
       flex-direction: column;
-      margin-top: 10%;
+      margin-top: 5%;
       display: flex; }
       main .card-container .cardDiseño {
         width: 400px;
         height: 686px;
-        padding: 15px;
+        padding: 30px;
         box-sizing: border-box;
         font-family: "Poppins", sans-serif;
         overflow: hidden;
@@ -3349,7 +3349,7 @@ main .bannerListadeservicios {
         justify-content: center;
         align-items: center; }
         main .card-container .alinearImg .cardImg1 {
-          width: 40%;
+          width: 60%;
           height: auto;
           margin-bottom: 10px;
           align-items: center; }
@@ -3455,7 +3455,7 @@ main .bannerListadeservicios {
         justify-content: center;
         align-items: center; }
         main .card-container .alinearImg .cardImg3 {
-          width: 80%;
+          width: 60%;
           height: auto;
           margin-bottom: 10px;
           align-items: center; }
@@ -3481,10 +3481,10 @@ main .bannerListadeservicios {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 1px 0; }
+      padding: 3px 0; }
       main .contenedorFreelance .div1cardFreelance {
         width: 100%;
-        height: auto;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -3498,11 +3498,11 @@ main .bannerListadeservicios {
           font-size: 14px; }
         main .contenedorFreelance .div1cardFreelance p {
           font-weight: 400;
-          font-size: 8px; }
+          font-size: 12px; }
         main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
           color: #000;
           font-family: "Poppins", sans-serif;
-          font-size: 7px;
+          font-size: 10px;
           font-style: normal;
           font-weight: 700;
           line-height: normal; }
@@ -3525,7 +3525,7 @@ main .bannerListadeservicios {
             color: #000; }
       main .contenedorFreelance .div2cardFreelance {
         width: 100%;
-        height: auto; }
+        height: 100%; }
         main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
           width: 100%; }
     main .contenedorConcentrate .concentrate {
