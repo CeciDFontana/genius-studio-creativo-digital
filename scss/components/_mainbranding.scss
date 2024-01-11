@@ -1,3 +1,38 @@
+.bannerTextosservicios {
+    font-family: "Poppins", sans-serif;
+    padding: 40px 106px 40px 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+      .bannerTítulopagesservicios {
+        color: #000;
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        max-width: 100%;
+        padding-bottom: 7px;
+        justify-content: left;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      .subtítuloPagesservicios {
+        color: #000;
+        font-family: Bebas Neue;
+        font-size: 2.5vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 100%;
+        padding-top: 20px;
+      }
+      .ptextoPagesservicios {
+        font-size: 2rem;
+        max-width: 100%;       
+      }
+  }
 .bannerListadeservicios {
     padding: 40px 0px 40px 106px;
     div {

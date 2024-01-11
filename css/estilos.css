@@ -24,48 +24,49 @@ a {
   justify-content: space-between; }
 
 /* Ajustes generales pages servicios*/
-.bannerServicios {
+main .bannerServicios {
   position: relative;
   height: 700px;
   overflow: hidden; }
-  .bannerServicios div figure .imgBannerpages {
+  main .bannerServicios div figure .imgBannerpages {
     width: 100%;
     height: 16vh;
     z-index: -1; }
-  .bannerServicios div .bannerTextosservicios {
+  main .bannerServicios div div .bannerTextosservicios {
     font-family: "Poppins", sans-serif;
-    padding: 40px 0px 40px 106px;
+    padding: 40px 106px 40px 106px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0; }
-    .bannerServicios div .bannerTextosservicios div .bannerTítulopagesservicios {
+    main .bannerServicios div div .bannerTextosservicios .bannerTítulopagesservicios {
       color: #000;
-      font-family: Poppins;
-      font-size: 86px;
+      font-size: 5vw;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
-      width: 1236px; }
-    .bannerServicios div .bannerTextosservicios div .subtítuloPagesservicios {
+      max-width: 100%;
+      padding-bottom: 7px;
+      justify-content: left;
+      align-items: center;
+      flex-shrink: 0; }
+    main .bannerServicios div div .bannerTextosservicios .subtítuloPagesservicios {
       color: #000;
       font-family: Bebas Neue;
-      font-size: 40px;
+      font-size: 2.5vw;
       font-style: normal;
-      display: flex;
-      width: 1512px;
-      height: 148px;
+      font-weight: 400;
+      line-height: normal;
+      max-width: 100%;
       padding-top: 20px; }
-    .bannerServicios div .bannerTextosservicios div .ptextoPagesservicios {
-      font-size: 2rem;
-      display: flex;
-      width: 1512px;
-      height: 180px; }
+    main .bannerServicios div div .bannerTextosservicios .ptextoPagesservicios {
+      font-size: 2.5rem;
+      max-width: 100%; }
 
-.bannerListadeservicios {
+main .bannerListadeservicios {
   padding: 40px 0px 40px 106px; }
-  .bannerListadeservicios div div h2 .serviciosTítulopage {
+  main .bannerListadeservicios .serviciosTítulopage {
     color: #000;
     font-family: Poppins;
     font-size: 40px;
@@ -73,6 +74,8 @@ a {
     font-weight: 700;
     line-height: normal;
     width: 1236px; }
+  main .bannerListadeservicios .ptextoPagesservicios {
+    font-size: 1.8rem; }
 
 /*!--HEADER--*/
 .bg-light {
@@ -148,7 +151,7 @@ main {
       line-height: 2rem;
       font-family: 'Poppins', sans-serif;
       font-size: 3rem;
-      font-weight: 600; }
+      font-weight: 700; }
     main .bannerInicio .textoBanner p {
       line-height: 2rem;
       font-family: 'Poppins', sans-serif;
@@ -364,7 +367,7 @@ main {
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
         line-height: normal; }
       main .contenedorFreelance .div1cardFreelance .button1 {
         width: 200px;
@@ -408,7 +411,7 @@ main {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: 2.6rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.3;
     margin: 0;
     display: -webkit-box;
@@ -466,23 +469,37 @@ main {
         background-color: #fff;
         color: #000; }
 
-.bannerListadeservicios {
-  padding: 40px 0px 40px 106px; }
-  .bannerListadeservicios div div .serviciosTítulopage {
+.bannerTextosservicios {
+  font-family: "Poppins", sans-serif;
+  padding: 40px 106px 40px 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0; }
+  .bannerTextosservicios .bannerTítulopagesservicios {
     color: #000;
-    font-family: Poppins;
-    font-size: 40px;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 1236px; }
-  .bannerListadeservicios div div .h2Servicios {
+    max-width: 100%;
+    padding-bottom: 7px;
+    justify-content: left;
+    align-items: center;
+    flex-shrink: 0; }
+  .bannerTextosservicios .subtítuloPagesservicios {
     color: #000;
-    font-family: Poppins;
-    font-size: 30px;
+    font-family: Bebas Neue;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; }
+    line-height: normal;
+    max-width: 100%;
+    padding-top: 20px; }
+  .bannerTextosservicios .ptextoPagesservicios {
+    font-size: 2rem;
+    max-width: 100%; }
 
 .bannerListadeservicios {
   padding: 40px 0px 40px 106px; }
@@ -627,9 +644,9 @@ main {
       font-weight: 700; }
 
 /* AJUSTES MEDIAQUERY */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1370px) and (max-width: 1440px) {
   /*Nuevas Medidas*/
-  /* Ajustes para la sección banner */
+  /* Ajustes para la sección banner*/
   main {
     padding-top: 63.64px;
     /* Ajustes para la sección freelance */ }
@@ -653,134 +670,1422 @@ main {
         line-height: 2rem;
         font-size: 2.5rem; }
     main .contenedorFreelance {
-      padding: 2.5px 0; }
+      padding: 2px 0; }
       main .contenedorFreelance .div1cardFreelance {
         width: 50%;
         height: 50%;
-        padding: 5vh 90px 5vh 90px; }
+        padding: 8vh 75px 8vh 75px;
+        height: 32.9vw; }
         main .contenedorFreelance .div1cardFreelance h2 {
-          font-size: 16px; }
+          font-size: 18px; }
         main .contenedorFreelance .div1cardFreelance p {
-          font-size: 14px; }
+          font-size: 16px; }
         main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
-          font-size: 12px; }
+          font-size: 14px; }
     main .div2cardFreelance {
       width: 50%;
       height: 50%; }
       main .div2cardFreelance .imágenrightFreelance {
         width: 100%; } }
 
-/* Ajustes generales pages servicios*/
-/*!--main pages servicios */
-.bannerTítulopagesservicios {
-  font-size: 76px; }
+/* Ajustes generales pages servicios */
+main .bannerServicios {
+  position: relative;
+  height: 700px;
+  overflow: hidden; }
+  main .bannerServicios div figure .imgBannerpages {
+    width: 100%;
+    height: 16vh;
+    z-index: -1; }
+  main .bannerServicios div div .bannerTextosservicios {
+    font-family: "Poppins", sans-serif;
+    padding: 40px 106px 40px 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0; }
+    main .bannerServicios div div .bannerTextosservicios .bannerTítulopagesservicios {
+      color: #000;
+      font-size: 5vw;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      max-width: 100%;
+      padding-bottom: 7px;
+      justify-content: left;
+      align-items: center;
+      flex-shrink: 0; }
+    main .bannerServicios div div .bannerTextosservicios .subtítuloPagesservicios {
+      color: #000;
+      font-family: Bebas Neue;
+      font-size: 2.5vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      max-width: 100%;
+      padding-top: 20px; }
+    main .bannerServicios div div .bannerTextosservicios .ptextoPagesservicios {
+      font-size: 2rem;
+      max-width: 100%; }
 
-.subtítuloPagesservicios {
-  font-size: 35px; }
+main .bannerListadeservicios {
+  padding: 40px 0px 40px 106px; }
+  main .bannerListadeservicios div div h2 .serviciosTítulopage {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1236px; }
 
-.ptextoPagesservicios {
-  width: 1440px; }
+@media screen and (min-width: 1321px) and (max-width: 1370px) {
+  main {
+    /* Ajustes generales pages servicios */
+    /* Ajustes para la sección freelance */ }
+    main .bannerListadeservicios {
+      padding: 40px 0px 40px 106px; }
+      main .bannerListadeservicios .serviciosTítulopage {
+        color: #000;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 1236px; }
+      main .bannerListadeservicios .h2Servicios {
+        font-size: 3rem; }
+      main .bannerListadeservicios .ptextoPagesservicios {
+        font-size: 2rem; }
+    main .contenedorFreelance {
+      padding: 2px 0; }
+      main .contenedorFreelance .div1cardFreelance {
+        width: 50%;
+        height: 50%;
+        padding: 8vh 75px 8vh 75px;
+        height: 32.9vw; }
+        main .contenedorFreelance .div1cardFreelance h2 {
+          font-size: 18px; }
+        main .contenedorFreelance .div1cardFreelance p {
+          font-size: 16px; }
+        main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
+          font-size: 14px; }
+    main .div2cardFreelance {
+      width: 50%;
+      height: 50%; }
+      main .div2cardFreelance .imágenrightFreelance {
+        width: 100%; } }
 
-.serviciosTítulopage {
-  font-size: 35px; }
-
-/*Falta ajustes el subtítulo y el texto en servicios*/
-@media screen and (max-width: 1370px) {
-  /*Nuevas Medidas*/
-  /* Ajustes para la sección banner */
-  .bannerTextos {
-    height: 580px; }
-  /* Ajustes para la sección freelance */
-  .cardFreelance {
-    padding: 5vh 100px 5vh 100px; }
-  .cardFreelance h2 {
-    font-size: 20px; }
-  .cardFreelance p {
-    font-size: 16px; }
-  .cardFreelance ul li {
-    font-size: 12px; }
-  /* Ajustes generales pages servicios*/
-  .bannerTítulopagesservicios {
-    font-size: 76px; }
-  .subtítuloPagesservicios {
-    font-size: 35px; }
-  .ptextoPagesservicios {
-    width: 1440px; }
-  .serviciosTítulopage {
-    font-size: 35px; } }
-
-@media screen and (max-width: 1380px) {
-  /* Ajustes para la sección freelance */
-  .cardFreelance h2 {
-    font-size: 18px; }
-  .cardFreelance p {
-    font-size: 14px; }
-  .cardFreelance ul li {
-    font-size: 11px; } }
+@media screen and (max-width: 1338px) {
+  /*!--HEADER--*/
+  .bg-light {
+    background: #e7eff2 !important;
+    position: fixed;
+    z-index: 99; }
+    .bg-light nav a .navBar__logo {
+      border-radius: 2%; }
+    .bg-light div ul li .nav-link {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: Poppins;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; } }
 
 @media screen and (max-width: 1320px) {
-  /*Nuevas Medidas*/
-  /* Ajustes para sección banner */
-  /*!--main section banner--*/
-  .imgbanner {
-    width: 100%;
-    height: 75vh;
-    z-index: -1; }
-  .bannerTextos {
-    position: absolute;
-    height: 65%;
-    width: 70%;
-    top: 12.5%; }
-  .bannerTextosPrincipal {
-    font-size: 4rem;
-    font-weight: 700; } }
-
-@media screen and (max-width: 1260px) {
-  /*Nuevas Medidas*/
+  /*Nuevas Medidas */
   /* Ajustes para la sección freelance */
-  .freelance {
-    padding: 2.5px 0; }
-  .cardFreelance {
-    padding: 6vh 100px 6vh 100px; }
-  .cardFreelance h2 {
-    font-size: 20px; }
-  .cardFreelance p {
-    font-size: 14px; }
-  .cardFreelance ul li {
-    font-size: 12px; }
-  /* Ajustes para s. concentrate*/
-  .concentrate p {
-    font-size: 2.3rem; }
-  /* Ajustes para la sección requerimientos */
-  .textR1 {
-    font-size: 54px; }
-  .textR2 {
-    font-size: 86px; } }
-
-@media screen and (max-width: 1250px) {
-  /* Ajustes para la sección freelance */
-  .cardFreelance {
-    width: 50%;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px; }
-  .cardFreelance ul li {
-    font-size: 12px; }
-  /* Ajustes page contacto */
-  .contenedor {
+  main .contenedorFreelance {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 0 auto; }
-  .div1,
-  .div2 {
-    width: 50%; }
-  form {
-    padding: 15px; }
-  label {
-    margin-bottom: 4px; }
-  .contacto-h2 {
-    font-size: 66px; }
-  .contacto-label {
-    line-height: 2rem;
-    font-size: 2rem; } }
+    padding: 3px 0; }
+    main .contenedorFreelance .div1cardFreelance {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
+      padding: 6vh 75px 6vh 75px;
+      height: 32.9vw; }
+      main .contenedorFreelance .div1cardFreelance h2 {
+        font-weight: 600;
+        font-size: 16px; }
+      main .contenedorFreelance .div1cardFreelance p {
+        font-weight: 400;
+        font-size: 14px; }
+      main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; }
+      main .contenedorFreelance .div1cardFreelance .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .contenedorFreelance .div1cardFreelance .button1:hover {
+          background-color: #fff;
+          color: #000; }
+    main .contenedorFreelance .div2cardFreelance {
+      width: 50%;
+      height: 50%; }
+      main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
+        width: 100%; } }
+
+/* ajustar contacto*/
+@media screen and (max-width: 1250px) {
+  main {
+    padding-top: 63.64px; }
+    main .bannerInicio .figurebannerInicio .imgbanner {
+      width: 100%;
+      height: 80vh;
+      z-index: -1; }
+    main .bannerInicio .bannerTextos {
+      position: absolute;
+      height: 75%;
+      width: 70%;
+      top: 10.2%;
+      bottom: 15%;
+      padding: 40px 0px 40px 106px; }
+      main .bannerInicio .bannerTextos .bannerDisciplines {
+        height: 65%; }
+        main .bannerInicio .bannerTextos .bannerDisciplines .bannerTextosPrincipal {
+          font-size: 4.5rem;
+          font-weight: 700; }
+    main .bannerInicio .textoBanner {
+      height: 15%; }
+      main .bannerInicio .textoBanner h1 {
+        line-height: 1.5rem;
+        font-size: 2.5rem; }
+      main .bannerInicio .textoBanner p {
+        line-height: 1.5rem;
+        font-size: 2rem; }
+    main .contenedorConcentrate .concentrate {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      text-align: center;
+      margin: 90px 0px; }
+      main .contenedorConcentrate .concentrate .imágenConcentrate {
+        width: 100%;
+        height: auto;
+        opacity: 0.5; }
+    main .contenedorConcentrate .pConcentrate {
+      position: absolute;
+      bottom: 29px;
+      right: 23px;
+      padding: 20px;
+      max-width: 50%;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      border-radius: 0px 20px;
+      background: rgba(255, 255, 255, 0.6);
+      display: flex;
+      width: 893px;
+      height: 96px;
+      justify-content: center;
+      align-items: center; }
+    main .requerimientos {
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+      box-sizing: border-box;
+      background: linear-gradient(180deg, rgba(219, 207, 0, 0.5) 0%, rgba(217, 97, 2, 0.5) 26.56%, rgba(217, 24, 91, 0.5) 52.08%, rgba(103, 46, 217, 0.5) 75%, rgba(14, 138, 157, 0.5) 100%);
+      padding: 10rem 0;
+      margin: 90px 0px; }
+      main .requerimientos .textR1 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .textR2 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 86px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .requerimientos .button1:hover {
+          background-color: #fff;
+          color: #000; } }
+
+@media screen and (max-width: 1208px) {
+  main {
+    padding-top: 63.64px; }
+    main .bannerInicio .figurebannerInicio .imgbanner {
+      width: 100%;
+      height: 90vh;
+      z-index: -1; }
+    main .bannerInicio .bannerTextos {
+      position: absolute;
+      height: 85%;
+      width: 70%;
+      top: 10%;
+      bottom: 15%;
+      font-family: 'Poppins', sans-serif;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 40px 0px 40px 106px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-shrink: 0; }
+      main .bannerInicio .bannerTextos .bannerDisciplines {
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-shrink: 0; }
+        main .bannerInicio .bannerTextos .bannerDisciplines .bannerTextosPrincipal {
+          font-size: 4.2rem;
+          font-weight: 700; }
+    main .bannerInicio .textoBanner {
+      height: 15%; }
+      main .bannerInicio .textoBanner h1 {
+        line-height: 2rem;
+        font-size: 2.5rem; }
+      main .bannerInicio .textoBanner p {
+        line-height: 2rem;
+        font-size: 2rem; }
+    main .card-container {
+      width: 100%;
+      height: 672px;
+      padding: 2px 100px 4px 100px;
+      align-items: flex-start;
+      gap: 20px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5%;
+      display: flex; }
+      main .card-container .cardDiseño {
+        width: 400px;
+        height: 586px;
+        padding: 50px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms easy;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 10px; }
+      main .card-container .diseño1 {
+        background: linear-gradient(180deg, rgba(91, 222, 196, 0.2) 0%, rgba(91, 222, 196, 0.8) 100%); }
+        main .card-container .diseño1:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg1 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+      main .card-container .diseño2 {
+        background: linear-gradient(180deg, rgba(217, 24, 91, 0.2) 0%, rgba(217, 24, 91, 0.8) 100%); }
+        main .card-container .diseño2:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg2 {
+          width: 60%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+      main .card-container .diseño3 {
+        background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
+        main .card-container .diseño3:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg3 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+    main .contenedorFreelance {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3px 0; }
+      main .contenedorFreelance .div1cardFreelance {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
+        padding: 4vh 75px 4vh 75px;
+        height: 32.9vw; }
+        main .contenedorFreelance .div1cardFreelance h2 {
+          font-weight: 600;
+          font-size: 16px; }
+        main .contenedorFreelance .div1cardFreelance p {
+          font-weight: 400;
+          font-size: 14px; }
+        main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
+          color: #000;
+          font-family: 'Poppins', sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal; }
+        main .contenedorFreelance .div1cardFreelance .button1 {
+          width: 200px;
+          border-radius: 100px;
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-align: center;
+          margin: 0 auto;
+          border-style: none;
+          color: #fff;
+          padding: 10px 20px;
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.5rem;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s; }
+          main .contenedorFreelance .div1cardFreelance .button1:hover {
+            background-color: #fff;
+            color: #000; }
+      main .contenedorFreelance .div2cardFreelance {
+        width: 50%;
+        height: 50%; }
+        main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
+          width: 100%; }
+    main .contenedorConcentrate .concentrate {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      text-align: center;
+      margin: 90px 0px; }
+      main .contenedorConcentrate .concentrate .imágenConcentrate {
+        width: 100%;
+        height: auto;
+        opacity: 0.5; }
+    main .contenedorConcentrate .pConcentrate {
+      position: absolute;
+      bottom: 29px;
+      right: 23px;
+      padding: 20px;
+      max-width: 50%;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      border-radius: 0px 20px;
+      background: rgba(255, 255, 255, 0.6);
+      display: flex;
+      width: 893px;
+      height: 96px;
+      justify-content: center;
+      align-items: center; }
+    main .requerimientos {
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+      box-sizing: border-box;
+      background: linear-gradient(180deg, rgba(219, 207, 0, 0.5) 0%, rgba(217, 97, 2, 0.5) 26.56%, rgba(217, 24, 91, 0.5) 52.08%, rgba(103, 46, 217, 0.5) 75%, rgba(14, 138, 157, 0.5) 100%);
+      padding: 10rem 0;
+      margin: 90px 0px; }
+      main .requerimientos .textR1 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .textR2 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 76px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .requerimientos .button1:hover {
+          background-color: #fff;
+          color: #000; } }
+
+#footer {
+  background: #E7EFF2 !important;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  #footer .social-icons {
+    display: inline-block;
+    margin: 0 10px; }
+    #footer .social-icons i {
+      font-size: 2.5em;
+      margin-right: 15px; }
+  #footer p {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif; }
+
+@media screen and (max-width: 1200px) {
+  /*!--HEADER--*/
+  .bg-light {
+    background: #e7eff2 !important;
+    position: fixed;
+    z-index: 99; }
+    .bg-light nav a .navBar__logo {
+      border-radius: 2%; }
+    .bg-light div ul li .nav-link {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: Poppins;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; }
+  main {
+    padding-top: 63.64px; }
+    main .bannerInicio .figurebannerInicio .imgbanner {
+      width: 100%;
+      height: 80vh;
+      z-index: -1; }
+    main .bannerInicio .bannerTextos {
+      position: absolute;
+      height: 75%;
+      width: 70%;
+      top: 10.1%;
+      bottom: 15%;
+      font-family: 'Poppins', sans-serif;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 30px 0px 30px 96px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-shrink: 0; }
+      main .bannerInicio .bannerTextos .bannerDisciplines {
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-shrink: 0; }
+        main .bannerInicio .bannerTextos .bannerDisciplines .bannerTextosPrincipal {
+          font-size: 4.2rem;
+          font-weight: 700; }
+    main .bannerInicio .textoBanner {
+      height: 15%; }
+      main .bannerInicio .textoBanner h1 {
+        line-height: 2rem;
+        font-size: 2.2rem; }
+      main .bannerInicio .textoBanner p {
+        line-height: 2rem;
+        font-size: 1.8rem; }
+    main .card-container {
+      width: 100%;
+      height: 672px;
+      padding: 2px 100px 4px 100px;
+      align-items: flex-start;
+      gap: 20px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5%;
+      display: flex; }
+      main .card-container .cardDiseño {
+        width: 400px;
+        height: 586px;
+        padding: 50px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms easy;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 10px; }
+      main .card-container .diseño1 {
+        background: linear-gradient(180deg, rgba(91, 222, 196, 0.2) 0%, rgba(91, 222, 196, 0.8) 100%); }
+        main .card-container .diseño1:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg1 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+      main .card-container .diseño2 {
+        background: linear-gradient(180deg, rgba(217, 24, 91, 0.2) 0%, rgba(217, 24, 91, 0.8) 100%); }
+        main .card-container .diseño2:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg2 {
+          width: 60%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+      main .card-container .diseño3 {
+        background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
+        main .card-container .diseño3:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg3 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+    main .contenedorFreelance {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3px 0; }
+      main .contenedorFreelance .div1cardFreelance {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
+        padding: 4vh 75px 4vh 75px;
+        height: 32.9vw; }
+        main .contenedorFreelance .div1cardFreelance h2 {
+          font-weight: 600;
+          font-size: 18px; }
+        main .contenedorFreelance .div1cardFreelance p {
+          font-weight: 400;
+          font-size: 12px; }
+        main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
+          color: #000;
+          font-family: 'Poppins', sans-serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal; }
+        main .contenedorFreelance .div1cardFreelance .button1 {
+          width: 200px;
+          border-radius: 100px;
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-align: center;
+          margin: 0 auto;
+          border-style: none;
+          color: #fff;
+          padding: 10px 20px;
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.5rem;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s; }
+          main .contenedorFreelance .div1cardFreelance .button1:hover {
+            background-color: #fff;
+            color: #000; }
+      main .contenedorFreelance .div2cardFreelance {
+        width: 50%;
+        height: 50%; }
+        main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
+          width: 100%; }
+    main .contenedorConcentrate .concentrate {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      text-align: center;
+      margin: 90px 0px; }
+      main .contenedorConcentrate .concentrate .imágenConcentrate {
+        width: 100%;
+        height: auto;
+        opacity: 0.5; }
+    main .contenedorConcentrate .pConcentrate {
+      position: absolute;
+      bottom: 29px;
+      right: 23px;
+      padding: 20px;
+      max-width: 50%;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      border-radius: 0px 20px;
+      background: rgba(255, 255, 255, 0.6);
+      display: flex;
+      width: 893px;
+      height: 96px;
+      justify-content: center;
+      align-items: center; }
+    main .requerimientos {
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+      box-sizing: border-box;
+      background: linear-gradient(180deg, rgba(219, 207, 0, 0.5) 0%, rgba(217, 97, 2, 0.5) 26.56%, rgba(217, 24, 91, 0.5) 52.08%, rgba(103, 46, 217, 0.5) 75%, rgba(14, 138, 157, 0.5) 100%);
+      padding: 10rem 0;
+      margin: 90px 0px; }
+      main .requerimientos .textR1 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .textR2 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .requerimientos .button1:hover {
+          background-color: #fff;
+          color: #000; } }
+
+#footer {
+  background: #E7EFF2 !important;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  #footer .social-icons {
+    display: inline-block;
+    margin: 0 10px; }
+    #footer .social-icons i {
+      font-size: 2.5em;
+      margin-right: 15px; }
+  #footer p {
+    font-size: 1.5rem; }
+
+@media screen and (max-width: 1074px) {
+  /*!--HEADER--*/
+  .bg-light {
+    background: #e7eff2 !important;
+    position: fixed;
+    z-index: 99; }
+    .bg-light nav a .navBar__logo {
+      border-radius: 2%; }
+    .bg-light div ul li .nav-link {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: Poppins;
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; }
+  main {
+    padding-top: 63.64px; }
+    main .bannerInicio .figurebannerInicio .imgbanner {
+      width: 100%;
+      height: 80vh;
+      z-index: -1; }
+    main .bannerInicio .bannerTextos {
+      position: absolute;
+      height: 75%;
+      width: 70%;
+      top: 10.1%;
+      bottom: 15%;
+      font-family: 'Poppins', sans-serif;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 30px 0px 30px 96px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-shrink: 0; }
+      main .bannerInicio .bannerTextos .bannerDisciplines {
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-shrink: 0; }
+        main .bannerInicio .bannerTextos .bannerDisciplines .bannerTextosPrincipal {
+          font-size: 4.2rem;
+          font-weight: 700; }
+    main .bannerInicio .textoBanner {
+      height: 15%; }
+      main .bannerInicio .textoBanner h1 {
+        line-height: 2rem;
+        font-size: 2.2rem; }
+      main .bannerInicio .textoBanner p {
+        line-height: 2rem;
+        font-size: 1.8rem; }
+    main .card-container {
+      width: 100%;
+      height: 672px;
+      padding: 2px 100px 4px 100px;
+      align-items: flex-start;
+      gap: 20px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5%;
+      display: flex; }
+      main .card-container .cardDiseño {
+        width: 400px;
+        height: 586px;
+        padding: 50px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms easy;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 10px; }
+      main .card-container .diseño1 {
+        background: linear-gradient(180deg, rgba(91, 222, 196, 0.2) 0%, rgba(91, 222, 196, 0.8) 100%); }
+        main .card-container .diseño1:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg1 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+      main .card-container .diseño2 {
+        background: linear-gradient(180deg, rgba(217, 24, 91, 0.2) 0%, rgba(217, 24, 91, 0.8) 100%); }
+        main .card-container .diseño2:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg2 {
+          width: 60%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+      main .card-container .diseño3 {
+        background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
+        main .card-container .diseño3:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
+      main .card-container .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .card-container p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left; }
+      main .card-container .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .card-container .alinearImg .cardImg3 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center; }
+      main .card-container .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .card-container .button1:hover {
+          background-color: #fff;
+          color: #000; }
+    main .contenedorFreelance {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3px 0; }
+      main .contenedorFreelance .div1cardFreelance {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
+        padding: 4vh 75px 4vh 75px;
+        height: 32.9vw; }
+        main .contenedorFreelance .div1cardFreelance h2 {
+          font-weight: 600;
+          font-size: 18px; }
+        main .contenedorFreelance .div1cardFreelance p {
+          font-weight: 400;
+          font-size: 12px; }
+        main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
+          color: #000;
+          font-family: 'Poppins', sans-serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal; }
+        main .contenedorFreelance .div1cardFreelance .button1 {
+          width: 200px;
+          border-radius: 100px;
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-align: center;
+          margin: 0 auto;
+          border-style: none;
+          color: #fff;
+          padding: 10px 20px;
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.5rem;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s; }
+          main .contenedorFreelance .div1cardFreelance .button1:hover {
+            background-color: #fff;
+            color: #000; }
+      main .contenedorFreelance .div2cardFreelance {
+        width: 50%;
+        height: 50%; }
+        main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
+          width: 100%; }
+    main .contenedorConcentrate .concentrate {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      text-align: center;
+      margin: 90px 0px; }
+      main .contenedorConcentrate .concentrate .imágenConcentrate {
+        width: 100%;
+        height: auto;
+        opacity: 0.5; }
+    main .contenedorConcentrate .pConcentrate {
+      position: absolute;
+      bottom: 29px;
+      right: 23px;
+      padding: 20px;
+      max-width: 50%;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      border-radius: 0px 20px;
+      background: rgba(255, 255, 255, 0.6);
+      display: flex;
+      width: 893px;
+      height: 96px;
+      justify-content: center;
+      align-items: center; }
+    main .requerimientos {
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+      box-sizing: border-box;
+      background: linear-gradient(180deg, rgba(219, 207, 0, 0.5) 0%, rgba(217, 97, 2, 0.5) 26.56%, rgba(217, 24, 91, 0.5) 52.08%, rgba(103, 46, 217, 0.5) 75%, rgba(14, 138, 157, 0.5) 100%);
+      padding: 10rem 0;
+      margin: 90px 0px; }
+      main .requerimientos .textR1 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .textR2 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Bebas Neue;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      main .requerimientos .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .requerimientos .button1:hover {
+          background-color: #fff;
+          color: #000; } }
+
+#footer {
+  background: #E7EFF2 !important;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  #footer .social-icons {
+    display: inline-block;
+    margin: 0 10px; }
+    #footer .social-icons i {
+      font-size: 2.5em;
+      margin-right: 15px; }
+  #footer p {
+    font-size: 1.5rem; }
