@@ -107,7 +107,7 @@ main .bannerListadeservicios {
       font-size: 3em;
       margin-right: 15px; }
   #footer p {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif; }
 
 main {
@@ -233,7 +233,9 @@ main {
       transition: background-color 0.3s, color 0.3s; }
       main .card-container .button1:hover {
         background-color: #fff;
-        color: #000; }
+        color: #000;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
     main .card-container .diseño2 {
       background: linear-gradient(180deg, rgba(217, 24, 91, 0.2) 0%, rgba(217, 24, 91, 0.8) 100%); }
       main .card-container .diseño2:hover {
@@ -286,7 +288,9 @@ main {
       transition: background-color 0.3s, color 0.3s; }
       main .card-container .button1:hover {
         background-color: #fff;
-        color: #000; }
+        color: #000;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
     main .card-container .diseño3 {
       background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
       main .card-container .diseño3:hover {
@@ -339,7 +343,21 @@ main {
       transition: background-color 0.3s, color 0.3s; }
       main .card-container .button1:hover {
         background-color: #fff;
-        color: #000; }
+        color: #000;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+    main .card-container .cardImg1,
+    main .card-container .cardImg2,
+    main .card-container .cardImg3 {
+      animation: fadeIn 1s ease-out; }
   main .contenedorFreelance {
     display: flex;
     justify-content: center;
@@ -385,7 +403,9 @@ main {
         transition: background-color 0.3s, color 0.3s; }
         main .contenedorFreelance .div1cardFreelance .button1:hover {
           background-color: #fff;
-          color: #000; }
+          color: #000;
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%); }
     main .contenedorFreelance .div2cardFreelance {
       width: 50%;
       height: 50%; }
@@ -467,7 +487,9 @@ main {
       transition: background-color 0.3s, color 0.3s; }
       main .requerimientos .button1:hover {
         background-color: #fff;
-        color: #000; }
+        color: #000;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
 
 .bannerTextosservicios {
   font-family: "Poppins", sans-serif;
