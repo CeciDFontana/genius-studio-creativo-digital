@@ -877,6 +877,20 @@ main .bannerListadeservicios {
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 1250px) */
 @media screen and (min-width: 1209px) and (max-width: 1250px) {
+  /*!--HEADER--*/
+  .bg-light {
+    background: #e7eff2 !important;
+    position: fixed;
+    z-index: 99; }
+    .bg-light nav a .navBar__logo {
+      border-radius: 2%; }
+    .bg-light div ul li .nav-link {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: Poppins;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; }
   main {
     padding-top: 63.64px; }
     main .bannerInicio .figurebannerInicio .imgbanner {
@@ -1737,6 +1751,58 @@ main .bannerListadeservicios {
       margin-right: 15px; }
   #footer p {
     font-size: 1.5rem; }
+
+/* Ajustes generales pages servicios */
+main .bannerServicios {
+  position: relative;
+  height: 700px;
+  overflow: hidden; }
+  main .bannerServicios div figure .imgBannerpages {
+    width: 100%;
+    height: 14vh;
+    z-index: -1; }
+  main .bannerServicios div div .bannerTextosservicios {
+    font-family: "Poppins", sans-serif;
+    padding: 40px 106px 40px 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0; }
+    main .bannerServicios div div .bannerTextosservicios .bannerTítulopagesservicios {
+      color: #000;
+      font-size: 5vw;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      max-width: 100%;
+      padding-bottom: 7px;
+      justify-content: left;
+      align-items: center;
+      flex-shrink: 0; }
+    main .bannerServicios div div .bannerTextosservicios .subtítuloPagesservicios {
+      color: #000;
+      font-family: Bebas Neue;
+      font-size: 2.5vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      max-width: 100%;
+      padding-top: 20px; }
+    main .bannerServicios div div .bannerTextosservicios .ptextoPagesservicios {
+      font-size: 2rem;
+      max-width: 100%; }
+
+main .bannerListadeservicios {
+  padding: 40px 0px 40px 106px; }
+  main .bannerListadeservicios div div h2 .serviciosTítulopage {
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1236px; }
 
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 1074px) */
