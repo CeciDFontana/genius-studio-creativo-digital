@@ -104,7 +104,7 @@ main .bannerListadeservicios {
     display: inline-block;
     margin: 0 10px; }
     #footer .social-icons i {
-      font-size: 3em;
+      font-size: 4em;
       margin-right: 15px; }
   #footer p {
     font-size: 3rem;
@@ -150,15 +150,16 @@ main {
       flex-shrink: 0; }
       main .bannerInicio .textoBanner h1 {
         line-height: 2rem;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-size: 2.8rem;
         font-weight: 700; }
       main .bannerInicio .textoBanner p {
         line-height: 2rem;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-size: 2.5rem; }
   main .card-container {
     width: 100%;
+    height: 26%;
     padding: 2px 100px 4px 100px;
     align-items: flex-start;
     gap: 20px;
@@ -227,7 +228,7 @@ main {
       border-style: none;
       color: #fff;
       padding: 10px 20px;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
       font-size: 1.5rem;
       cursor: pointer;
       transition: background-color 0.3s, color 0.3s; }
@@ -370,7 +371,7 @@ main {
       flex-direction: column;
       justify-content: space-between;
       align-items: flex-start;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
       background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
       padding: 6vh 100px 6vh 100px;
       height: 32.9vw; }
@@ -382,7 +383,7 @@ main {
         font-size: 18px; }
       main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
         color: #000;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -452,7 +453,7 @@ main {
     box-sizing: border-box;
     background: linear-gradient(180deg, rgba(219, 207, 0, 0.5) 0%, rgba(217, 97, 2, 0.5) 26.56%, rgba(217, 24, 91, 0.5) 52.08%, rgba(103, 46, 217, 0.5) 75%, rgba(14, 138, 157, 0.5) 100%);
     padding: 10rem 0;
-    margin: 90px 0px 0px 0px; }
+    margin: 90px 0px 90px 0px; }
     main .requerimientos .textR1 {
       color: #fff;
       text-align: center;
@@ -481,7 +482,7 @@ main {
       border-style: none;
       color: #fff;
       padding: 10px 20px;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
       font-size: 1.5rem;
       cursor: pointer;
       transition: background-color 0.3s, color 0.3s; }
@@ -1454,24 +1455,28 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
-#footer {
+/*#footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0; }
-  #footer .social-icons {
+  left: 0;
+  .social-icons {
     display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
+    margin: 0 10px;
+    i {
       font-size: 2.5em;
-      margin-right: 15px; }
-  #footer p {
+      margin-right: 15px;
+    }
+  }
+  p {
     font-size: 1.8rem;
-    font-family: "Poppins", sans-serif; }
-
+    font-family: "Poppins", sans-serif;
+  }
+}
+*/
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 1200px) */
 @media screen and (min-width: 1075px) and (max-width: 1200px) {
@@ -1815,23 +1820,27 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
           background-color: #fff;
           color: #000; } }
 
-#footer {
+/*#footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0; }
-  #footer .social-icons {
+  left: 0;
+  .social-icons {
     display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
+    margin: 0 10px;
+    i {
       font-size: 2.5em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.5rem; }
-
+      margin-right: 15px;
+    }
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+*/
 /* Ajustes generales pages servicios */
 main .bannerServicios {
   position: relative;
@@ -2225,23 +2234,27 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
           background-color: #fff;
           color: #000; } }
 
-#footer {
+/* #footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0; }
-  #footer .social-icons {
+  left: 0;
+  .social-icons {
     display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
+    margin: 0 10px;
+    i {
       font-size: 2.5em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.4rem; }
-
+      margin-right: 15px;
+    }
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+*/
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 1038px) */
 @media screen and (min-width: 985px) and (max-width: 1038px) {
@@ -2585,23 +2598,27 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
           background-color: #fff;
           color: #000; } }
 
-#footer {
+/* #footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0; }
-  #footer .social-icons {
+  left: 0;
+  .social-icons {
     display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
+    margin: 0 10px;
+    i {
       font-size: 2.5em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.2rem; }
-
+      margin-right: 15px;
+    }
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+*/
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 984px) */
 @media screen and (min-width: 834px) and (max-width: 984px) {
@@ -2929,6 +2946,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
+/*
 #footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
@@ -2936,16 +2954,20 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0; }
-  #footer .social-icons {
+  left: 0;
+  .social-icons {
     display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
+    margin: 0 10px;
+    i {
       font-size: 2em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.1rem; }
-
+      margin-right: 15px;
+    }
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+*/
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 834px) */
 @media screen and (min-width: 635px) and (max-width: 834px) {
@@ -3277,6 +3299,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
+/*
 #footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
@@ -3284,16 +3307,20 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0; }
-  #footer .social-icons {
+  left: 0;
+  .social-icons {
     display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
+    margin: 0 10px;
+    i {
       font-size: 2em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.1rem; }
-
+      margin-right: 15px;
+    }
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+*/
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 634px) */
 @media screen and (min-width: 431px) and (max-width: 634px) {
@@ -3625,6 +3652,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
+/*
 #footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
@@ -3632,16 +3660,20 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0; }
-  #footer .social-icons {
+  left: 0;
+  .social-icons {
     display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
+    margin: 0 10px;
+    i {
       font-size: 2em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.1rem; }
-
+      margin-right: 15px;
+    }
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+*/
 /* AJUSTE MEDIAQUERY */
 /* and (max-width: 430px) */
 @media screen and (min-width: 5px) and (max-width: 430px) {
@@ -3895,6 +3927,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         main .requerimientos .button1:hover {
           background-color: #fff;
           color: #000; }
+  /*
   #footer {
     background: #e7eff2 !important;
     color: rgba(0, 0, 0, 0.5);
@@ -3902,12 +3935,18 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
     padding: 10px;
     width: 100%;
     bottom: 0;
-    left: 0; }
-    #footer .social-icons {
+    left: 0;
+    .social-icons {
       display: inline-block;
-      margin: 0 10px; }
-      #footer .social-icons i {
+      margin: 0 10px;
+      i {
         font-size: 1.5em;
-        margin-right: 15px; }
-    #footer p {
-      font-size: 0.8rem; } }
+        margin-right: 15px;
+      }
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+*/ }
