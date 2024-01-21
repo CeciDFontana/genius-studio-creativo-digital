@@ -159,6 +159,7 @@ main {
   }
 
   .contenedor {
+    padding: 40px 106px 40px 106px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -419,7 +420,7 @@ main {
           .nav-link {
             color: rgba(0, 0, 0, 0.5);
             font-family: Poppins;
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -545,7 +546,7 @@ main {
           .nav-link {
             color: rgba(0, 0, 0, 0.5);
             font-family: Poppins;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -576,6 +577,298 @@ main {
         }
       }
     }
+    /*.card-container {
+      width: 100%;
+      height: 26%;
+      padding: 2px 100px 4px 100px;
+      align-items: flex-start;
+      gap: 20px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5%;
+      display: flex;
+  
+      .cardDiseño {
+        width: 400px;
+        height: 686px;
+        padding: 50px;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms easy;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 10px;
+      }
+      .diseño1 {
+        background: linear-gradient(
+          180deg,
+          rgba(91, 222, 196, 0.2) 0%,
+          rgba(91, 222, 196, 0.8) 100%
+        );
+        &:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+      .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+      }
+      .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardImg1 {
+          width: 80%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center;
+        }
+      }
+      .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+          background-color: #fff;
+          color: #000;
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+  
+      .diseño2 {
+        background: linear-gradient(
+          180deg,
+          rgba(217, 24, 91, 0.2) 0%,
+          rgba(217, 24, 91, 0.8) 100%
+        );
+        &:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+      .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+      }
+      .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardImg2 {
+          width: 60%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center;
+        }
+      }
+      .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+  
+        &:hover {
+          background-color: #fff;
+          color: #000;
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+  
+      .diseño3 {
+        background: linear-gradient(
+          180deg,
+          rgba(219, 207, 0, 0.2) 0%,
+          rgba(219, 207, 0, 0.8) 100%
+        );
+        &:hover {
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+      .títuloCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .pnegritaCard {
+        color: #000;
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+      }
+      .alinearImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardImg3 {
+          width: 60%;
+          height: auto;
+          margin-bottom: 10px;
+          align-items: center;
+        }
+      }
+      .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+  
+        &:hover {
+          background-color: #fff;
+          color: #000;
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          transform: translateY(-3%);
+        }
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
+      .cardImg1,
+      .cardImg2,
+      .cardImg3 {
+        animation: fadeIn 1s ease-out;
+      }
+    }
+*/
+    .contenedorFreelance {
+      .div1cardFreelance {
+        padding: 4vh 75px 4vh 75px;
+        h2 {
+          font-weight: 700;
+          font-size: 20px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 14px;
+        }
+        .ulFreelance {
+          .liFreelance {
+            font-size: 14px;
+          }
+        }
+        .button1 {
+          width: 200px;
+          border-radius: 100px;
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-align: center;
+          margin: 0 auto;
+          border-style: none;
+          color: #fff;
+          padding: 10px 20px;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.5rem;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s;
+  
+          &:hover {
+            background-color: #fff;
+            color: #000;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3%);
+          }
+        }
+      }
     .contenedorConcentrate {
       .concentrate {
         position: relative;
@@ -671,6 +964,7 @@ main {
       }
     }
   }
+}
 }
 
 ///////////////////////////////////////////////////////////////////////////
