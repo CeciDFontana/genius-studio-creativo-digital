@@ -1,7 +1,13 @@
-////////////////////////////* AJUSTE MEDIAQUERY *///////////////////////////
+///////////////////////* AJUSTE MEDIAQUERY *//////////////////////
 
-///////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .requerimientos {
+    margin: 100px 0px 280px 0px;
+  }
+}
 
+////////////////////////////////////////////////////////////////////////
 @media screen and (min-width: 1370px) and (max-width: 1440px) {
   /* Ajustes para la sección banner*/
   main {
@@ -10,16 +16,16 @@
         height: 43.7vw;
         .bannerDisciplines {
           .bannerTextosPrincipal {
-            font-size: 3.5rem;
+            font-size: 3.8rem;
           }
         }
       }
       .textoBanner {
         h1 {
-          font-size: 2rem;
+          font-size: 2.2rem;
         }
         p {
-          font-size: 1.8rem;
+          font-size: 2rem;
         }
       }
     }
@@ -30,7 +36,7 @@
       .div1cardFreelance {
         width: 50%;
         height: 50%;
-        padding: 8vh 75px 8vh 75px;
+        padding: 5vh 75px 5vh 75px;
         height: 32.9vw;
         h2 {
           font-size: 18px;
@@ -43,6 +49,27 @@
             font-size: 14px;
           }
         }
+        .button1 {
+          width: 200px;
+          border-radius: 100px;
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-align: center;
+          margin: 20px 185px; ////////////////
+          border-style: none;
+          padding: 10px 20px;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.5rem;
+          color: #fff;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s;
+          &:hover {
+            background-color: #fff;
+            color: #000;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3%);
+          }
+        }
       }
     }
     .div2cardFreelance {
@@ -53,7 +80,12 @@
       }
     }
   }
+
+  .requerimientos {
+    margin: 100px 0px 90px 0px;
+  }
 }
+
 #footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
@@ -76,7 +108,7 @@
   }
 }
 
-/* Ajustes generales pages servicios *////////////////////////////////////////////
+/* Ajustes generales pages servicios */ ///////////////////////////////////////////
 main {
   .bannerServicios {
     position: relative;
@@ -130,20 +162,27 @@ main {
     }
   }
   .bannerListadeservicios {
-    div {
-      div {
-        h2 {
-          .serviciosTítulopage {
-            color: #000;
-            font-family: Poppins;
-            font-size: 40px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            width: 1236px;
-          }
-        }
-      }
+    padding: 40px 106px 40px 106px;
+    .serviciosTítulopage {
+      //color: #000;
+      //font-family: Poppins;
+      font-size: 38px;
+      //font-style: normal;
+      //font-weight: 700;
+      //line-height: normal;
+      //width: 1236px;
+    }
+    .h2Servicios {
+      //color: #000;
+      //font-family: Poppins;
+      font-size: 30px;
+      //font-style: normal;
+      //font-weight: 400;
+      //line-height: normal;
+    }
+
+    .ptextoPagesservicios {
+      font-size: 1.7rem;
     }
   }
 }
@@ -157,7 +196,6 @@ main {
       z-index: -1;
     }
   }
-
   .contenedor {
     padding: 40px 106px 40px 106px;
     display: flex;
@@ -340,10 +378,10 @@ main {
         width: 1236px;
       }
       .h2Servicios {
-        font-size: 3rem;
+        font-size: 27px;
       }
       .ptextoPagesservicios {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
     }
     /* Ajustes para la sección freelance */
@@ -353,7 +391,7 @@ main {
       .div1cardFreelance {
         width: 50%;
         height: 50%;
-        padding: 8vh 75px 8vh 75px;
+        padding: 5vh 70px 5vh 70px;
         height: 32.9vw;
         h2 {
           font-size: 18px;
@@ -377,11 +415,39 @@ main {
     }
   }
 }
-
+.requerimientos {
+  margin: 90px 0px 67px 0px;
+}
 ///////////////////////////////////////////////////////////////////////////
 
 @media screen and (min-width: 1321px) and (max-width: 1338px) {
   /*!--HEADER--*/
+  .bg-light {
+    background: #e7eff2 !important;
+    position: fixed;
+    z-index: 99;
+    nav {
+      a {
+        .navBar__logo {
+          border-radius: 2%;
+        }
+      }
+    }
+    div {
+      ul {
+        li {
+          .nav-link {
+            color: rgba(0, 0, 0, 0.5);
+            font-family: Poppins;
+            font-size: 1.7rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
   main {
     .bannerInicio {
       .bannerTextos {
@@ -403,6 +469,14 @@ main {
       }
     }
   }
+  .requerimientos {
+    margin: 90px 0px 54px 0px;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+@media screen and (min-width: 1251px) and (max-width: 1320px) {
   .bg-light {
     background: #e7eff2 !important;
     position: fixed;
@@ -420,7 +494,7 @@ main {
           .nav-link {
             color: rgba(0, 0, 0, 0.5);
             font-family: Poppins;
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -429,12 +503,6 @@ main {
       }
     }
   }
-}
-
-///////////////////////////////////////////////////////////////////////////
-
-@media screen and (min-width: 1251px) and (max-width: 1320px) {
-  /*Nuevas Medidas */
   /* Ajustes para la sección freelance */
   main {
     .bannerInicio {
@@ -494,25 +562,6 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 10px 20px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.5rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
       }
       .div2cardFreelance {
         width: 50%;
@@ -522,6 +571,9 @@ main {
         }
       }
     }
+  }
+  .requerimientos {
+    margin: 90px 0px 50px 0px;
   }
 }
 
@@ -577,259 +629,6 @@ main {
         }
       }
     }
-    /*.card-container {
-      width: 100%;
-      height: 26%;
-      padding: 2px 100px 4px 100px;
-      align-items: flex-start;
-      gap: 20px;
-      display: flex;
-      justify-content: space-around;
-      margin-top: 5%;
-      display: flex;
-  
-      .cardDiseño {
-        width: 400px;
-        height: 686px;
-        padding: 50px;
-        box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
-        overflow: hidden;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        cursor: default;
-        transition: all 400ms easy;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        border-radius: 10px;
-      }
-      .diseño1 {
-        background: linear-gradient(
-          180deg,
-          rgba(91, 222, 196, 0.2) 0%,
-          rgba(91, 222, 196, 0.8) 100%
-        );
-        &:hover {
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%);
-        }
-      }
-      .títuloCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 1.8rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-      .pnegritaCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 1.8rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-      p {
-        color: rgba(0, 0, 0, 0.8);
-        font-family: Poppins;
-        font-size: 1.8rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-align: left;
-      }
-      .alinearImg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .cardImg1 {
-          width: 80%;
-          height: auto;
-          margin-bottom: 10px;
-          align-items: center;
-        }
-      }
-      .button1 {
-        width: 200px;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin: 0 auto;
-        border-style: none;
-        color: #fff;
-        padding: 10px 20px;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        &:hover {
-          background-color: #fff;
-          color: #000;
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%);
-        }
-      }
-  
-      .diseño2 {
-        background: linear-gradient(
-          180deg,
-          rgba(217, 24, 91, 0.2) 0%,
-          rgba(217, 24, 91, 0.8) 100%
-        );
-        &:hover {
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%);
-        }
-      }
-      .títuloCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-      .pnegritaCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-      p {
-        color: rgba(0, 0, 0, 0.8);
-        font-family: Poppins;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-align: left;
-      }
-      .alinearImg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .cardImg2 {
-          width: 60%;
-          height: auto;
-          margin-bottom: 10px;
-          align-items: center;
-        }
-      }
-      .button1 {
-        width: 200px;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin: 0 auto;
-        border-style: none;
-        color: #fff;
-        padding: 10px 20px;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-  
-        &:hover {
-          background-color: #fff;
-          color: #000;
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%);
-        }
-      }
-  
-      .diseño3 {
-        background: linear-gradient(
-          180deg,
-          rgba(219, 207, 0, 0.2) 0%,
-          rgba(219, 207, 0, 0.8) 100%
-        );
-        &:hover {
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%);
-        }
-      }
-      .títuloCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-      .pnegritaCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-      p {
-        color: rgba(0, 0, 0, 0.8);
-        font-family: Poppins;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-align: left;
-      }
-      .alinearImg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .cardImg3 {
-          width: 60%;
-          height: auto;
-          margin-bottom: 10px;
-          align-items: center;
-        }
-      }
-      .button1 {
-        width: 200px;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin: 0 auto;
-        border-style: none;
-        color: #fff;
-        padding: 10px 20px;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-  
-        &:hover {
-          background-color: #fff;
-          color: #000;
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%);
-        }
-      }
-      @keyframes fadeIn {
-        0% {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-        100% {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-  
-      .cardImg1,
-      .cardImg2,
-      .cardImg3 {
-        animation: fadeIn 1s ease-out;
-      }
-    }
-*/
     .contenedorFreelance {
       .div1cardFreelance {
         padding: 4vh 75px 4vh 75px;
@@ -846,130 +645,83 @@ main {
             font-size: 14px;
           }
         }
-        .button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+      .contenedorConcentrate {
+        .concentrate {
+          position: relative;
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 20px;
           text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 10px 20px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.5rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-  
-          &:hover {
-            background-color: #fff;
-            color: #000;
-            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-            transform: translateY(-3%);
+          margin: 90px 0px;
+          .imágenConcentrate {
+            width: 100%;
+            height: auto;
+            opacity: 0.5;
           }
         }
-      }
-    .contenedorConcentrate {
-      .concentrate {
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        text-align: center;
-        margin: 90px 0px;
-        .imágenConcentrate {
-          width: 100%;
-          height: auto;
-          opacity: 0.5;
-        }
-      }
-      .pConcentrate {
-        position: absolute;
-        bottom: 29px;
-        right: 23px;
-        padding: 20px;
-        max-width: 50%;
-        color: #000;
-        font-family: "Poppins", sans-serif;
-        font-size: 2.2rem;
-        font-weight: 700;
-        line-height: 1.3;
-        margin: 0;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        overflow: hidden;
-        border-radius: 0px 20px;
-        background: rgba(255, 255, 255, 0.6);
-        display: flex;
-        width: 893px;
-        height: 96px;
-        justify-content: center;
-        align-items: center;
-      }
-    }
-    .requerimientos {
-      text-align: center;
-      padding: 40px;
-      background-color: #f4f4f4;
-      box-sizing: border-box;
-      background: linear-gradient(
-        180deg,
-        rgba(219, 207, 0, 0.5) 0%,
-        rgba(217, 97, 2, 0.5) 26.56%,
-        rgba(217, 24, 91, 0.5) 52.08%,
-        rgba(103, 46, 217, 0.5) 75%,
-        rgba(14, 138, 157, 0.5) 100%
-      );
-      padding: 10rem 0;
-      //margin: 90px 0px;
-      .textR1 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 54px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      .textR2 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 86px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      .button1 {
-        width: 200px;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin: 0 auto;
-        border-style: none;
-        color: #fff;
-        padding: 10px 20px;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        &:hover {
-          background-color: #fff;
+        .pConcentrate {
+          position: absolute;
+          bottom: 29px;
+          right: 23px;
+          padding: 20px;
+          max-width: 50%;
           color: #000;
+          font-family: "Poppins", sans-serif;
+          font-size: 2.2rem;
+          font-weight: 700;
+          line-height: 1.3;
+          margin: 0;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          border-radius: 0px 20px;
+          background: rgba(255, 255, 255, 0.6);
+          display: flex;
+          width: 893px;
+          height: 96px;
+          justify-content: center;
+          align-items: center;
         }
+      }
+      .requerimientos {
+        margin: 100px 0px 30px 0px; /////////////////////////////ver
       }
     }
   }
-}
 }
 
 ///////////////////////////////////////////////////////////////////////////
 
 @media screen and (min-width: 1201px) and (max-width: 1208px) {
+  /*!--HEADER--*/
+  .bg-light {
+    background: #e7eff2 !important;
+    position: fixed;
+    z-index: 99;
+    nav {
+      a {
+        .navBar__logo {
+          border-radius: 2%;
+        }
+      }
+    }
+    div {
+      ul {
+        li {
+          .nav-link {
+            color: rgba(0, 0, 0, 0.5);
+            font-family: Poppins;
+            font-size: 1.7rem; /////////////////////
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
   main {
     .bannerInicio {
       .bannerTextos {
@@ -1302,7 +1054,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 200px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -1321,6 +1073,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -1370,59 +1123,7 @@ main {
       }
     }
     .requerimientos {
-      text-align: center;
-      padding: 40px;
-      background-color: #f4f4f4;
-      box-sizing: border-box;
-      background: linear-gradient(
-        180deg,
-        rgba(219, 207, 0, 0.5) 0%,
-        rgba(217, 97, 2, 0.5) 26.56%,
-        rgba(217, 24, 91, 0.5) 52.08%,
-        rgba(103, 46, 217, 0.5) 75%,
-        rgba(14, 138, 157, 0.5) 100%
-      );
-      padding: 10rem 0;
-      //margin: 90px 0px;
-      .textR1 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 44px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      .textR2 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 76px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      .button1 {
-        width: 200px;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin: 0 auto;
-        border-style: none;
-        color: #fff;
-        padding: 10px 20px;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        &:hover {
-          background-color: #fff;
-          color: #000;
-        }
-      }
+      margin: 100px 0px 0px 0px; /////////////////////////////
     }
   }
 }
@@ -1765,7 +1466,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 200px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -1784,6 +1485,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -1833,59 +1535,7 @@ main {
       }
     }
     .requerimientos {
-      text-align: center;
-      padding: 40px;
-      background-color: #f4f4f4;
-      box-sizing: border-box;
-      background: linear-gradient(
-        180deg,
-        rgba(219, 207, 0, 0.5) 0%,
-        rgba(217, 97, 2, 0.5) 26.56%,
-        rgba(217, 24, 91, 0.5) 52.08%,
-        rgba(103, 46, 217, 0.5) 75%,
-        rgba(14, 138, 157, 0.5) 100%
-      );
-      padding: 10rem 0;
-      //margin: 90px 0px;
-      .textR1 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 34px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      .textR2 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 66px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      .button1 {
-        width: 200px;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin: 0 auto;
-        border-style: none;
-        color: #fff;
-        padding: 10px 20px;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        &:hover {
-          background-color: #fff;
-          color: #000;
-        }
-      }
+      margin: 100px 0px 0px 0px; /////////////////////////////
     }
   }
 }
@@ -1983,31 +1633,167 @@ main {
   }
 }
 
-///////////////////////////////////////////////////////////////////////////
+.mainContacto {
+  figure {
+    .imgBannerpages {
+      width: 100%;
+      height: 16vh;
+      z-index: -1;
+    }
+  }
+  .contenedor {
+    padding: 40px 100px 40px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .div1__formContacto {
+      width: 50%;
+      .formContacto {
+        .contacto-h2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 76px;
+          font-weight: 700;
+          text-align: left;
+          margin-bottom: 20px;
+        }
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .formContacto__inputtextNombre {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 2rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
 
-@media screen and (min-width: 1039px) and (max-width: 1074px) {
-  main {
-    .bannerInicio {
-      .bannerTextos {
-        height: 41.2vw;
-        padding: 40px 0px 40px 86px;
-        .bannerDisciplines {
-          height: 75%;
-          .bannerTextosPrincipal {
-            font-size: 3rem;
+        .formContacto__inputtextApellido {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 2rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextEmail {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 2rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextTareatext {
+          textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+        }
+        .contacto-button {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.5rem;
+          input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+          input[type="reset"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
           }
         }
       }
-      .textoBanner {
-        h1 {
-          font-size: 1.6rem;
+    }
+    .div2__formContacto {
+      width: 50%;
+      div {
+        .pformContacto {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 2rem;
+          font-weight: 700;
         }
-        p {
-          font-size: 1.4rem;
-        }
+        ////ajustar mapa////
       }
     }
   }
+  .requerimientos {
+    margin: 100px 0px 0px 0px; /////////////////////////////
+  }
+}
+///////////////////////////////////////////////////////////////////////////
+
+@media screen and (min-width: 1039px) and (max-width: 1074px) {
   /*!--HEADER--*/
   .bg-light {
     background: #e7eff2 !important;
@@ -2035,6 +1821,29 @@ main {
       }
     }
   }
+  main {
+    .bannerInicio {
+      .bannerTextos {
+        height: 41.2vw;
+        padding: 40px 0px 40px 86px;
+        .bannerDisciplines {
+          height: 75%;
+          .bannerTextosPrincipal {
+            font-size: 3rem;
+          }
+        }
+      }
+      .textoBanner {
+        h1 {
+          font-size: 1.6rem;
+        }
+        p {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
   main {
     padding-top: 63.64px;
     // .bannerInicio {
@@ -2348,7 +2157,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 200px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -2367,6 +2176,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -2415,7 +2225,9 @@ main {
         align-items: center;
       }
     }
+    
     .requerimientos {
+      margin: 100px 0px 0px 0px; /////////////////////////////
       text-align: center;
       padding: 40px;
       background-color: #f4f4f4;
@@ -2435,7 +2247,7 @@ main {
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Bebas Neue;
-        font-size: 34px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -2445,7 +2257,7 @@ main {
         text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Bebas Neue;
-        font-size: 66px;
+        font-size: 56px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -2859,7 +2671,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 200px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -2878,6 +2690,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -3340,7 +3153,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 200px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -3359,6 +3172,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -3830,7 +3644,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 200px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -3849,6 +3663,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -4318,7 +4133,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 200px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -4337,6 +4152,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -4702,7 +4518,7 @@ main {
             line-height: normal;
           }
         }
-        .button1 {
+        /*.button1 {
           width: 130px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
@@ -4721,6 +4537,7 @@ main {
             color: #000;
           }
         }
+        */
       }
       .div2cardFreelance {
         width: 100%;
