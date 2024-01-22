@@ -2153,27 +2153,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         font-family: "Poppins", sans-serif;
         background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
         padding: 3.5vh 70px 3.5vh 70px;
-        height: 32.9vw;
-        /*.button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 8px 16px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.2rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */ }
+        height: 32.9vw; }
         main .contenedorFreelance .div1cardFreelance h2 {
           font-weight: 600;
           font-size: 18px; }
@@ -2187,6 +2167,23 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
           font-style: normal;
           font-weight: 700;
           line-height: normal; }
+        main .contenedorFreelance .div1cardFreelance .button1 {
+          width: 300px;
+          border-radius: 100px;
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-align: center;
+          margin: 0px 9px;
+          border-style: none;
+          color: #fff;
+          padding: 8px 16px;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.2rem;
+          cursor: pointer;
+          transition: background-color 0.3s, color 0.3s; }
+          main .contenedorFreelance .div1cardFreelance .button1:hover {
+            background-color: #fff;
+            color: #000; }
       main .contenedorFreelance .div2cardFreelance {
         width: 50%;
         height: 50%; }
@@ -2592,6 +2589,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       justify-content: center;
       align-items: center; }
     main .requerimientos {
+      margin: 100px 0px 0px 0px;
       text-align: center;
       padding: 40px;
       background-color: #f4f4f4;
@@ -2940,6 +2938,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
     justify-content: center;
     align-items: center; }
   main .requerimientos {
+    margin: 100px 0px 0px 0px;
     text-align: center;
     padding: 40px;
     background-color: #f4f4f4;
@@ -3208,54 +3207,51 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3px 0; }
+    padding: 2px 0; }
     main .contenedorFreelance .div1cardFreelance {
       width: 50%;
-      height: 50%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: flex-start;
       font-family: "Poppins", sans-serif;
       background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
-      padding: 2.5vh 62px 2.5vh 62px;
-      height: 32.9vw;
-      /*.button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 8px 16px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.2rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */ }
+      padding: 2vh 40px 2vh 40px;
+      height: 32.9vw; }
       main .contenedorFreelance .div1cardFreelance h2 {
         font-weight: 700;
         font-size: 16px; }
       main .contenedorFreelance .div1cardFreelance p {
         font-weight: 400;
-        font-size: 8px; }
+        font-size: 9px; }
       main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
         color: #000;
         font-family: "Poppins", sans-serif;
-        font-size: 7px;
+        font-size: 8px;
         font-style: normal;
         font-weight: 700;
         line-height: normal; }
+      main .contenedorFreelance .div1cardFreelance .button1 {
+        width: 200px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 8px 16px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .contenedorFreelance .div1cardFreelance .button1:hover {
+          background-color: #fff;
+          color: #000; }
     main .contenedorFreelance .div2cardFreelance {
       width: 50%;
-      height: 50%; }
+      height: 100%; }
       main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
         width: 100%; }
   main .contenedorConcentrate .concentrate {
@@ -3374,18 +3370,20 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
     font-size: 0.8rem; }
   main .card-container {
     width: 100%;
-    height: 622px;
-    padding: 1px 70px 1.5px 70px;
-    align-items: flex-start;
-    gap: 20px;
+    padding: 0px;
+    padding-bottom: 40px;
+    padding-top: 25px;
     display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-    display: flex; }
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 2%; }
     main .card-container .cardDiseño {
-      width: 400px;
-      height: 586px;
-      padding: 20px;
+      width: 80vw;
+      min-height: 326px;
+      max-height: 346px;
+      padding: 30px;
       box-sizing: border-box;
       font-family: "Poppins", sans-serif;
       overflow: hidden;
@@ -3405,7 +3403,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
     main .card-container .títuloCard {
       color: #000;
       font-family: Poppins;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       font-style: normal;
       font-weight: 700;
       line-height: normal; }
@@ -3429,12 +3427,13 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       justify-content: center;
       align-items: center; }
       main .card-container .alinearImg .cardImg1 {
-        width: 80%;
-        height: auto;
+        width: 130px;
         margin-bottom: 10px;
-        align-items: center; }
+        position: relative;
+        top: 0px;
+        left: 15vw; }
     main .card-container .button1 {
-      width: 200px;
+      width: 130px;
       border-radius: 100px;
       background: rgba(255, 255, 255, 0.1);
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -3442,7 +3441,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       margin: 0 auto;
       border-style: none;
       color: #fff;
-      padding: 8px 12px;
+      padding: 6px 12px;
       font-family: "Poppins", sans-serif;
       font-size: 1rem;
       cursor: pointer;
@@ -3455,159 +3454,81 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       main .card-container .diseño2:hover {
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
         transform: translateY(-3%); }
-    main .card-container .títuloCard {
-      color: #000;
-      font-family: Poppins;
-      font-size: 1.8rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal; }
-    main .card-container .pnegritaCard {
-      color: #000;
-      font-family: Poppins;
-      font-size: 1.4rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal; }
-    main .card-container p {
-      color: rgba(0, 0, 0, 0.8);
-      font-family: Poppins;
-      font-size: 1.5rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      text-align: left; }
     main .card-container .alinearImg {
       display: flex;
       justify-content: center;
       align-items: center; }
       main .card-container .alinearImg .cardImg2 {
-        width: 60%;
-        height: auto;
+        width: 130px;
         margin-bottom: 10px;
-        align-items: center; }
-    main .card-container .button1 {
-      width: 200px;
-      border-radius: 100px;
-      background: rgba(255, 255, 255, 0.1);
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-      text-align: center;
-      margin: 0 auto;
-      border-style: none;
-      color: #fff;
-      padding: 8px 12px;
-      font-family: "Poppins", sans-serif;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background-color 0.3s, color 0.3s; }
-      main .card-container .button1:hover {
-        background-color: #fff;
-        color: #000; }
+        position: relative;
+        top: 0px;
+        left: 15vw; }
     main .card-container .diseño3 {
       background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
       main .card-container .diseño3:hover {
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
         transform: translateY(-3%); }
-    main .card-container .títuloCard {
-      color: #000;
-      font-family: Poppins;
-      font-size: 1.8rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal; }
-    main .card-container .pnegritaCard {
-      color: #000;
-      font-family: Poppins;
-      font-size: 1.4rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal; }
-    main .card-container p {
-      color: rgba(0, 0, 0, 0.8);
-      font-family: Poppins;
-      font-size: 1.5rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      text-align: left; }
     main .card-container .alinearImg {
       display: flex;
       justify-content: center;
       align-items: center; }
       main .card-container .alinearImg .cardImg3 {
-        width: 80%;
-        height: auto;
+        width: 130px;
         margin-bottom: 10px;
-        align-items: center; }
-    main .card-container .button1 {
-      width: 200px;
-      border-radius: 100px;
-      background: rgba(255, 255, 255, 0.1);
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-      text-align: center;
-      margin: 0 auto;
-      border-style: none;
-      color: #fff;
-      padding: 8px 16px;
-      font-family: "Poppins", sans-serif;
-      font-size: 1.2rem;
-      cursor: pointer;
-      transition: background-color 0.3s, color 0.3s; }
-      main .card-container .button1:hover {
-        background-color: #fff;
-        color: #000; }
+        position: relative;
+        top: 0px;
+        left: 15vw; }
   main .contenedorFreelance {
+    margin-bottom: 10%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3px 0; }
+    padding: 260px 0px 0px 0; }
     main .contenedorFreelance .div1cardFreelance {
-      width: 50%;
-      height: 50%;
+      width: 100%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      align-items: flex-start;
+      align-items: left;
       font-family: "Poppins", sans-serif;
       background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
-      padding: 2.5vh 62px 2.5vh 62px;
-      height: 32.9vw;
-      /*.button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 8px 16px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.2rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */ }
+      padding: 2.5vh 62px 2.5vh 62px; }
       main .contenedorFreelance .div1cardFreelance h2 {
         font-weight: 700;
-        font-size: 16px; }
+        font-size: 14px; }
       main .contenedorFreelance .div1cardFreelance p {
         font-weight: 400;
-        font-size: 8px; }
+        font-size: 12px; }
       main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
         color: #000;
         font-family: "Poppins", sans-serif;
-        font-size: 7px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;
         line-height: normal; }
+      main .contenedorFreelance .div1cardFreelance .button1 {
+        width: 130px;
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        margin: 0 auto;
+        border-style: none;
+        color: #fff;
+        padding: 6px 12px;
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; }
+        main .contenedorFreelance .div1cardFreelance .button1:hover {
+          background-color: #fff;
+          color: #000; }
     main .contenedorFreelance .div2cardFreelance {
-      width: 50%;
-      height: 50%; }
+      width: 100%;
+      height: 100%; }
       main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
         width: 100%; }
   main .contenedorConcentrate .concentrate {
@@ -3622,29 +3543,30 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       height: auto;
       opacity: 0.5; }
   main .contenedorConcentrate .pConcentrate {
-    position: absolute;
-    bottom: 19px;
-    right: 13px;
-    padding: 15px;
-    max-width: 40%;
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    border-radius: 0px 20px;
-    background: rgba(255, 255, 255, 0.6);
-    display: flex;
-    width: 793px;
-    height: 86px;
-    justify-content: center;
-    align-items: center; }
+    /*position: absolute;
+        bottom: 19px;
+        right: 13px;
+        padding: 15px;
+        max-width: 40%;
+        color: #000;
+        font-family: "Poppins", sans-serif;*/
+    font-size: 1.2rem;
+    /*font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        border-radius: 0px 20px;
+        background: rgba(255, 255, 255, 0.6);
+        display: flex;
+        width: 793px;
+        height: 86px;
+        justify-content: center;
+        align-items: center;*/ }
   main .requerimientos {
+    margin: 80px 0px 0px 0px;
     text-align: center;
     padding: 40px;
     background-color: #f4f4f4;
@@ -3670,7 +3592,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       font-weight: 400;
       line-height: normal; }
     main .requerimientos .button1 {
-      width: 200px;
+      width: 130px;
       border-radius: 100px;
       background: rgba(255, 255, 255, 0.1);
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -3678,16 +3600,15 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       margin: 0 auto;
       border-style: none;
       color: #fff;
-      padding: 8px 16px;
+      padding: 6px 12px;
       font-family: "Poppins", sans-serif;
-      font-size: 1.2rem;
+      font-size: 1rem;
       cursor: pointer;
       transition: background-color 0.3s, color 0.3s; }
       main .requerimientos .button1:hover {
         background-color: #fff;
         color: #000; } }
 
-/*
 #footer {
   background: #e7eff2 !important;
   color: rgba(0, 0, 0, 0.5);
@@ -3695,99 +3616,173 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
   padding: 10px;
   width: 100%;
   bottom: 0;
-  left: 0;
-  .social-icons {
+  left: 0; }
+  #footer .social-icons {
     display: inline-block;
-    margin: 0 10px;
-    i {
-      font-size: 2em;
-      margin-right: 15px;
-    }
-  }
-  p {
-    font-size: 1.1rem;
-  }
-}
-*/
+    margin: 0 10px; }
+    #footer .social-icons i {
+      font-size: 2.5em;
+      margin-right: 15px; }
+  #footer p {
+    font-size: 1.2rem; }
+
 @media screen and (min-width: 5px) and (max-width: 430px) {
-  main {
-    padding-top: 63.64px; }
-    main .bannerInicio .bannerTextos {
-      padding: 15px 0px 15px 15px;
-      top: 73.64px; }
+  main .bannerInicio .figurebannerInicio .imgbanner {
+    height: 52vw; }
+  main .bannerInicio .bannerTextos {
+    padding: 20px 0px 30px 36px;
+    top: 93.64px;
+    height: 40vw; }
+    main .bannerInicio .bannerTextos .bannerDisciplines {
+      height: 75%; }
       main .bannerInicio .bannerTextos .bannerDisciplines .bannerTextosPrincipal {
-        font-size: 1rem; }
-    main .bannerInicio .textoBanner h1 {
-      line-height: 1rem;
-      font-size: 0.8rem; }
-    main .bannerInicio .textoBanner p {
-      line-height: 1rem;
-      font-size: 0.7rem; }
-    main .card-container {
-      width: 100%;
-      padding: 0px;
-      padding-bottom: 40px;
-      padding-top: 25px;
+        font-size: 1.7rem; }
+  main .bannerInicio .textoBanner h1 {
+    font-size: 1rem; }
+  main .bannerInicio .textoBanner p {
+    font-size: 0.8rem; }
+  main .card-container {
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 2%; }
+    main .card-container .cardDiseño {
+      width: 80vw;
+      min-height: 326px;
+      max-height: 346px;
+      padding: 30px;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      overflow: hidden;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+      cursor: default;
+      transition: all 400ms easy;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-      margin-top: 2%; }
-      main .card-container .cardDiseño {
-        width: 80vw;
-        min-height: 326px;
-        max-height: 346px;
-        padding: 30px;
-        box-sizing: border-box;
-        font-family: "Poppins", sans-serif;
-        overflow: hidden;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        cursor: default;
-        transition: all 400ms easy;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        border-radius: 10px; }
-      main .card-container .diseño1 {
-        background: linear-gradient(180deg, rgba(91, 222, 196, 0.2) 0%, rgba(91, 222, 196, 0.8) 100%); }
-        main .card-container .diseño1:hover {
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%); }
-      main .card-container .títuloCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 1rem;
-        font-style: normal;
+      align-items: flex-start;
+      border-radius: 10px; }
+    main .card-container .diseño1 {
+      background: linear-gradient(180deg, rgba(91, 222, 196, 0.2) 0%, rgba(91, 222, 196, 0.8) 100%); }
+      main .card-container .diseño1:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
+    main .card-container .títuloCard {
+      color: #000;
+      font-family: Poppins;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal; }
+    main .card-container .pnegritaCard {
+      color: #000;
+      font-family: Poppins;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal; }
+    main .card-container p {
+      color: rgba(0, 0, 0, 0.8);
+      font-family: Poppins;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: left; }
+    main .card-container .alinearImg {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .card-container .alinearImg .cardImg1 {
+        width: 130px;
+        margin-bottom: 10px;
+        position: relative;
+        top: 0px;
+        left: 15vw; }
+    main .card-container .button1 {
+      width: 130px;
+      border-radius: 100px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      margin: 0 auto;
+      border-style: none;
+      color: #fff;
+      padding: 6px 12px;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s; }
+      main .card-container .button1:hover {
+        background-color: #fff;
+        color: #000; }
+    main .card-container .diseño2 {
+      background: linear-gradient(180deg, rgba(217, 24, 91, 0.2) 0%, rgba(217, 24, 91, 0.8) 100%); }
+      main .card-container .diseño2:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
+    main .card-container .alinearImg {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .card-container .alinearImg .cardImg2 {
+        width: 130px;
+        margin-bottom: 10px;
+        position: relative;
+        top: 0px;
+        left: 15vw; }
+    main .card-container .diseño3 {
+      background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
+      main .card-container .diseño3:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%); }
+    main .card-container .alinearImg {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .card-container .alinearImg .cardImg3 {
+        width: 130px;
+        margin-bottom: 10px;
+        position: relative;
+        top: 0px;
+        left: 15vw; }
+  main .contenedorFreelance {
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 260px 0px 0px 0; }
+    main .contenedorFreelance .div1cardFreelance {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: left;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
+      padding: 2.5vh 62px 2.5vh 62px; }
+      main .contenedorFreelance .div1cardFreelance h2 {
         font-weight: 700;
-        line-height: normal; }
-      main .card-container .pnegritaCard {
-        color: #000;
-        font-family: Poppins;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal; }
-      main .card-container p {
-        color: rgba(0, 0, 0, 0.8);
-        font-family: Poppins;
-        font-size: 1rem;
-        font-style: normal;
+        font-size: 14px; }
+      main .contenedorFreelance .div1cardFreelance p {
         font-weight: 400;
-        line-height: normal;
-        text-align: left; }
-      main .card-container .alinearImg {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main .card-container .alinearImg .cardImg1 {
-          width: 130px;
-          margin-bottom: 10px;
-          position: relative;
-          top: 0px;
-          left: 15vw; }
-      main .card-container .button1 {
+        font-size: 12px; }
+      main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
+        color: #000;
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; }
+      main .contenedorFreelance .div1cardFreelance .button1 {
         width: 130px;
         border-radius: 100px;
         background: rgba(255, 255, 255, 0.1);
@@ -3801,188 +3796,105 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         font-size: 1rem;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s; }
-        main .card-container .button1:hover {
+        main .contenedorFreelance .div1cardFreelance .button1:hover {
           background-color: #fff;
           color: #000; }
-      main .card-container .diseño2 {
-        background: linear-gradient(180deg, rgba(217, 24, 91, 0.2) 0%, rgba(217, 24, 91, 0.8) 100%); }
-        main .card-container .diseño2:hover {
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%); }
-      main .card-container .alinearImg {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main .card-container .alinearImg .cardImg2 {
-          width: 130px;
-          margin-bottom: 10px;
-          position: relative;
-          top: 0px;
-          left: 15vw; }
-      main .card-container .diseño3 {
-        background: linear-gradient(180deg, rgba(219, 207, 0, 0.2) 0%, rgba(219, 207, 0, 0.8) 100%); }
-        main .card-container .diseño3:hover {
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(-3%); }
-      main .card-container .alinearImg {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        main .card-container .alinearImg .cardImg3 {
-          width: 130px;
-          margin-bottom: 10px;
-          position: relative;
-          top: 0px;
-          left: 15vw; }
-    main .contenedorFreelance {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 3px 0; }
-      main .contenedorFreelance .div1cardFreelance {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: left;
-        font-family: "Poppins", sans-serif;
-        background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
-        padding: 2.5vh 62px 2.5vh 62px;
-        /*.button1 {
-          width: 130px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 6px 12px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */ }
-        main .contenedorFreelance .div1cardFreelance h2 {
-          font-weight: 700;
-          font-size: 14px; }
-        main .contenedorFreelance .div1cardFreelance p {
-          font-weight: 400;
-          font-size: 12px; }
-        main .contenedorFreelance .div1cardFreelance .ulFreelance .liFreelance {
-          color: #000;
-          font-family: "Poppins", sans-serif;
-          font-size: 10px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: normal; }
-      main .contenedorFreelance .div2cardFreelance {
-        width: 100%;
-        height: 100%; }
-        main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
-          width: 100%; }
-    main .contenedorConcentrate .concentrate {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
-      text-align: center;
-      margin: 50px 0px; }
-      main .contenedorConcentrate .concentrate .imágenConcentrate {
-        width: 100%;
-        height: 25vh;
-        opacity: 0.5; }
-    main .contenedorConcentrate .pConcentrate {
-      position: absolute;
-      bottom: 19px;
-      right: 13px;
-      padding: 5px;
-      max-width: 70%;
-      color: #000;
-      font-family: "Poppins", sans-serif;
-      font-size: 1.1rem;
-      font-weight: 700;
-      line-height: 1.2;
-      margin: 0;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 2;
-      overflow: hidden;
-      border-radius: 0px 20px;
-      background: rgba(255, 255, 255, 0.6);
-      display: flex;
-      height: 86px;
-      justify-content: center;
-      align-items: center; }
-    main .requerimientos {
-      text-align: center;
-      background-color: #f4f4f4;
-      box-sizing: border-box;
-      background: linear-gradient(180deg, rgba(219, 207, 0, 0.5) 0%, rgba(217, 97, 2, 0.5) 26.56%, rgba(217, 24, 91, 0.5) 52.08%, rgba(103, 46, 217, 0.5) 75%, rgba(14, 138, 157, 0.5) 100%);
-      padding: 10rem 0;
-      margin: 50px 0px 0px 0px; }
-      main .requerimientos .textR1 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal; }
-      main .requerimientos .textR2 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: Bebas Neue;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal; }
-      main .requerimientos .button1 {
-        width: 200px;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin: 0 auto;
-        border-style: none;
-        color: #fff;
-        padding: 8px 16px;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.2rem;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s; }
-        main .requerimientos .button1:hover {
-          background-color: #fff;
-          color: #000; }
-  /*
-  #footer {
-    background: #e7eff2 !important;
-    color: rgba(0, 0, 0, 0.5);
+    main .contenedorFreelance .div2cardFreelance {
+      width: 100%;
+      height: 100%; }
+      main .contenedorFreelance .div2cardFreelance .imágenrightFreelance {
+        width: 100%; }
+  main .contenedorConcentrate .concentrate {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
     text-align: center;
-    padding: 10px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    .social-icons {
-      display: inline-block;
-      margin: 0 10px;
-      i {
-        font-size: 1.5em;
-        margin-right: 15px;
-      }
-    }
-    p {
-      font-size: 0.8rem;
-    }
-  }
-}
-*/ }
+    margin: 90px 0px; }
+    main .contenedorConcentrate .concentrate .imágenConcentrate {
+      width: 100%;
+      height: auto;
+      opacity: 0.5; }
+  main .contenedorConcentrate .pConcentrate {
+    /*position: absolute;
+        bottom: 19px;
+        right: 13px;
+        padding: 15px;
+        max-width: 40%;
+        color: #000;
+        font-family: "Poppins", sans-serif;*/
+    font-size: 1.2rem;
+    /*font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        border-radius: 0px 20px;
+        background: rgba(255, 255, 255, 0.6);
+        display: flex;
+        width: 793px;
+        height: 86px;
+        justify-content: center;
+        align-items: center;*/ }
+  main .requerimientos {
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(219, 207, 0, 0.5) 0%, rgba(217, 97, 2, 0.5) 26.56%, rgba(217, 24, 91, 0.5) 52.08%, rgba(103, 46, 217, 0.5) 75%, rgba(14, 138, 157, 0.5) 100%);
+    padding: 10rem 0; }
+    main .requerimientos .textR1 {
+      color: #fff;
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: Bebas Neue;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; }
+    main .requerimientos .textR2 {
+      color: #fff;
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: Bebas Neue;
+      font-size: 46px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal; }
+    main .requerimientos .button1 {
+      width: 130px;
+      border-radius: 100px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      margin: 0 auto;
+      border-style: none;
+      color: #fff;
+      padding: 6px 12px;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s; }
+      main .requerimientos .button1:hover {
+        background-color: #fff;
+        color: #000; } }
+
+#footer {
+  background: #e7eff2 !important;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  #footer .social-icons {
+    display: inline-block;
+    margin: 0 10px; }
+    #footer .social-icons i {
+      font-size: 2.5em;
+      margin-right: 15px; }
+  #footer p {
+    font-size: 1.2rem; }
