@@ -725,7 +725,7 @@ main {
     display: inline-block;
     margin: 0 10px; }
     #footer .social-icons i {
-      font-size: 3em;
+      font-size: 2.5em;
       margin-right: 15px; }
   #footer p {
     font-size: 1.8rem;
@@ -1408,28 +1408,6 @@ main .bannerListadeservicios {
   main .requerimientos {
     margin: 100px 0px 0px 0px; } }
 
-/*#footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  .social-icons {
-    display: inline-block;
-    margin: 0 10px;
-    i {
-      font-size: 2.5em;
-      margin-right: 15px;
-    }
-  }
-  p {
-    font-size: 1.8rem;
-    font-family: "Poppins", sans-serif;
-  }
-}
-*/
 @media screen and (min-width: 1075px) and (max-width: 1200px) {
   /*!--HEADER--*/
   .bg-light {
@@ -1657,27 +1635,7 @@ main .bannerListadeservicios {
         font-family: "Poppins", sans-serif;
         background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
         padding: 4vh 75px 4vh 75px;
-        height: 32.9vw;
-        /*.button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 10px 20px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.5rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */ }
+        height: 32.9vw; }
         main .contenedorFreelance .div1cardFreelance h2 {
           font-weight: 600;
           font-size: 18px; }
@@ -1733,27 +1691,6 @@ main .bannerListadeservicios {
     main .requerimientos {
       margin: 100px 0px 0px 0px; } }
 
-/*#footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  .social-icons {
-    display: inline-block;
-    margin: 0 10px;
-    i {
-      font-size: 2.5em;
-      margin-right: 15px;
-    }
-  }
-  p {
-    font-size: 1.5rem;
-  }
-}
-*/
 /* Ajustes generales pages servicios */
 main .bannerServicios {
   position: relative;
@@ -1937,7 +1874,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
     .bg-light div ul li .nav-link {
       color: rgba(0, 0, 0, 0.5);
       font-family: Poppins;
-      font-size: 1.3rem;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
       line-height: normal; }
@@ -2267,39 +2204,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
           background-color: #fff;
           color: #000; } }
 
-/* #footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  .social-icons {
-    display: inline-block;
-    margin: 0 10px;
-    i {
-      font-size: 2.5em;
-      margin-right: 15px;
-    }
-  }
-  p {
-    font-size: 1.4rem;
-  }
-}
-*/
 @media screen and (min-width: 985px) and (max-width: 1038px) {
-  main .bannerInicio .bannerTextos {
-    height: 41.2vw;
-    padding: 40px 0px 40px 86px; }
-    main .bannerInicio .bannerTextos .bannerDisciplines {
-      height: 75%; }
-      main .bannerInicio .bannerTextos .bannerDisciplines .bannerTextosPrincipal {
-        font-size: 3rem; }
-  main .bannerInicio .textoBanner h1 {
-    font-size: 1.6rem; }
-  main .bannerInicio .textoBanner p {
-    font-size: 1.4rem; }
   /*!--HEADER--*/
   .bg-light {
     background: #e7eff2 !important;
@@ -2316,6 +2221,17 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       line-height: normal; }
   main {
     padding-top: 63.64px; }
+    main .bannerInicio .bannerTextos {
+      height: 41.2vw;
+      padding: 40px 0px 40px 86px; }
+      main .bannerInicio .bannerTextos .bannerDisciplines {
+        height: 75%; }
+        main .bannerInicio .bannerTextos .bannerDisciplines .bannerTextosPrincipal {
+          font-size: 3rem; }
+    main .bannerInicio .textoBanner h1 {
+      font-size: 1.6rem; }
+    main .bannerInicio .textoBanner p {
+      font-size: 1.4rem; }
     main .card-container {
       width: 100%;
       height: 692px;
@@ -2515,27 +2431,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         font-family: "Poppins", sans-serif;
         background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
         padding: 3vh 68px 3vh 68px;
-        height: 32.9vw;
-        /*.button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 8px 16px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.2rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */ }
+        height: 32.9vw; }
         main .contenedorFreelance .div1cardFreelance h2 {
           font-weight: 700;
           font-size: 18px; }
@@ -2632,27 +2528,6 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
           background-color: #fff;
           color: #000; } }
 
-/* #footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  .social-icons {
-    display: inline-block;
-    margin: 0 10px;
-    i {
-      font-size: 2.5em;
-      margin-right: 15px;
-    }
-  }
-  p {
-    font-size: 1.2rem;
-  }
-}
-*/
 @media screen and (min-width: 834px) and (max-width: 984px) {
   main .bannerInicio .bannerTextos {
     height: 40vw;
@@ -2864,27 +2739,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       font-family: "Poppins", sans-serif;
       background: linear-gradient(180deg, rgba(91, 222, 196, 0.15) 0%, rgba(6, 87, 124, 0.4) 100%);
       padding: 2.5vh 62px 2.5vh 62px;
-      height: 32.9vw;
-      /*.button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 8px 16px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.2rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */ }
+      height: 32.9vw; }
       main .contenedorFreelance .div1cardFreelance h2 {
         font-weight: 700;
         font-size: 16px; }
@@ -2981,28 +2836,6 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
-/*
-#footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  .social-icons {
-    display: inline-block;
-    margin: 0 10px;
-    i {
-      font-size: 2em;
-      margin-right: 15px;
-    }
-  }
-  p {
-    font-size: 1.1rem;
-  }
-}
-*/
 @media screen and (min-width: 635px) and (max-width: 834px) {
   /* AJUSTAR TAMAÑO BUTTON1*/
   main .bannerInicio .figurebannerInicio .imgbanner {
@@ -3331,28 +3164,6 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
-/*
-#footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  .social-icons {
-    display: inline-block;
-    margin: 0 10px;
-    i {
-      font-size: 2em;
-      margin-right: 15px;
-    }
-  }
-  p {
-    font-size: 1.1rem;
-  }
-}
-*/
 @media screen and (min-width: 431px) and (max-width: 634px) {
   main .bannerInicio .figurebannerInicio .imgbanner {
     height: 52vw; }
@@ -3609,23 +3420,6 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
-#footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0; }
-  #footer .social-icons {
-    display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
-      font-size: 2.5em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.2rem; }
-
 @media screen and (min-width: 5px) and (max-width: 430px) {
   main .bannerInicio .figurebannerInicio .imgbanner {
     height: 52vw; }
@@ -3881,20 +3675,3 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
       main .requerimientos .button1:hover {
         background-color: #fff;
         color: #000; } }
-
-#footer {
-  background: #e7eff2 !important;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  bottom: 0;
-  left: 0; }
-  #footer .social-icons {
-    display: inline-block;
-    margin: 0 10px; }
-    #footer .social-icons i {
-      font-size: 2.5em;
-      margin-right: 15px; }
-  #footer p {
-    font-size: 1.2rem; }
