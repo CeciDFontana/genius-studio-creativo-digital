@@ -1,13 +1,6 @@
 ///////////////////////* AJUSTE MEDIAQUERY *//////////////////////
 
 ////////////////////////////////////////////////////////////////////////
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
-  .requerimientos {
-    margin: 100px 0px 280px 0px;
-  }
-}
-
-////////////////////////////////////////////////////////////////////////
 @media screen and (min-width: 1370px) and (max-width: 1440px) {
   /* Ajustes para la sección banner*/
   main {
@@ -183,162 +176,6 @@ main {
 
     .ptextoPagesservicios {
       font-size: 1.7rem;
-    }
-  }
-}
-
-/* Ajustes page contacto */
-.mainContacto {
-  figure {
-    .imgBannerpages {
-      width: 100%;
-      height: 16vh;
-      z-index: -1;
-    }
-  }
-  .contenedor {
-    padding: 40px 106px 40px 106px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .div1__formContacto {
-      width: 50%;
-      .formContacto {
-        .contacto-h2 {
-          font-family: "Poppins", sans-serif;
-          font-size: 76px;
-          font-weight: 700;
-          text-align: left;
-          margin-bottom: 20px;
-        }
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        .formContacto__inputtextNombre {
-          .contacto-label {
-            line-height: 2rem;
-            font-family: "Poppins", sans-serif;
-            font-size: 2rem;
-            display: block;
-            margin-bottom: 5px;
-          }
-          input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            .contacto-input {
-              line-height: 2rem;
-              font-family: "Poppins", sans-serif;
-              font-size: 1.5rem;
-            }
-          }
-        }
-
-        .formContacto__inputtextApellido {
-          .contacto-label {
-            line-height: 2rem;
-            font-family: "Poppins", sans-serif;
-            font-size: 2rem;
-            display: block;
-            margin-bottom: 5px;
-          }
-          input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            .contacto-input {
-              line-height: 2rem;
-              font-family: "Poppins", sans-serif;
-              font-size: 1.5rem;
-            }
-          }
-        }
-        .formContacto__inputtextEmail {
-          .contacto-label {
-            line-height: 2rem;
-            font-family: "Poppins", sans-serif;
-            font-size: 2rem;
-            display: block;
-            margin-bottom: 5px;
-          }
-          input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            .contacto-input {
-              line-height: 2rem;
-              font-family: "Poppins", sans-serif;
-              font-size: 1.5rem;
-            }
-          }
-        }
-        .formContacto__inputtextTareatext {
-          textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-          }
-        }
-        .contacto-button {
-          line-height: 2rem;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.5rem;
-          input[type="submit"] {
-            padding: 10px 20px;
-            margin-top: 10px;
-            background-color: #a9acad;
-            color: #000000;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            border-radius: 100px;
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-            font-family: "Poppins", sans-serif;
-            &:hover {
-              background-color: #a9acad;
-              font-family: "Poppins", sans-serif;
-            }
-          }
-          input[type="reset"] {
-            padding: 10px 20px;
-            margin-top: 10px;
-            background-color: #a9acad;
-            color: #000000;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            border-radius: 100px;
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-            font-family: "Poppins", sans-serif;
-            &:hover {
-              background-color: #a9acad;
-              font-family: "Poppins", sans-serif;
-            }
-          }
-        }
-      }
-    }
-    .div2__formContacto {
-      width: 50%;
-      div {
-        .pformContacto {
-          line-height: 2rem;
-          font-family: "Poppins", sans-serif;
-          font-size: 2rem;
-          font-weight: 700;
-        }
-      }
     }
   }
 }
@@ -686,7 +523,7 @@ main {
         }
       }
       .requerimientos {
-        margin: 100px 0px 30px 0px; /////////////////////////////ver
+        margin: 100px 0px 0px 0px; /////////////////////////////ajustar
       }
     }
   }
@@ -742,7 +579,7 @@ main {
         }
       }
     }
-    
+
     .card-container {
       width: 100%;
       height: 672px;
@@ -1008,26 +845,6 @@ main {
             line-height: normal;
           }
         }
-        /*.button1 {
-          width: 200px;
-          border-radius: 100px;
-          background: rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-          text-align: center;
-          margin: 0 auto;
-          border-style: none;
-          color: #fff;
-          padding: 10px 20px;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.5rem;
-          cursor: pointer;
-          transition: background-color 0.3s, color 0.3s;
-          &:hover {
-            background-color: #fff;
-            color: #000;
-          }
-        }
-        */
       }
       .div2cardFreelance {
         width: 50%;
@@ -1081,7 +898,6 @@ main {
     }
   }
 }
-
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -1399,7 +1215,6 @@ main {
             line-height: normal;
           }
         }
-        
       }
       .div2cardFreelance {
         width: 50%;
@@ -1453,7 +1268,6 @@ main {
     }
   }
 }
-
 
 /* Ajustes generales pages servicios */
 main {
@@ -1706,7 +1520,7 @@ main {
           .nav-link {
             color: rgba(0, 0, 0, 0.5);
             font-family: Poppins;
-            font-size: 1rem;
+            font-size: 1.3rem;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -2071,7 +1885,7 @@ main {
         align-items: center;
       }
     }
-    
+
     .requerimientos {
       margin: 100px 0px 0px 0px; /////////////////////////////
       text-align: center;
@@ -2130,7 +1944,6 @@ main {
     }
   }
 }
-
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -2448,7 +2261,6 @@ main {
             line-height: normal;
           }
         }
-        
       }
       .div2cardFreelance {
         width: 50%;
@@ -2555,7 +2367,6 @@ main {
     }
   }
 }
-
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -2845,7 +2656,6 @@ main {
             line-height: normal;
           }
         }
-        
       }
       .div2cardFreelance {
         width: 50%;
@@ -2953,10 +2763,6 @@ main {
   }
 }
 
-
-
-
-
 ///////////////////////////////////////////////////////////////////////////
 
 @media screen and (min-width: 635px) and (max-width: 834px) {
@@ -2989,7 +2795,7 @@ main {
         }
       }
     }
-    
+
     .card-container {
       width: 100%;
       height: 622px;
@@ -3217,45 +3023,47 @@ main {
       }
     }
     .contenedorFreelance {
+      margin-bottom: 10%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 2px 0;
+      padding: 80px 0px 0px 0; ///////ver////////
       .div1cardFreelance {
-        width: 50%;
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: left;
         font-family: "Poppins", sans-serif;
         background: linear-gradient(
           180deg,
           rgba(91, 222, 196, 0.15) 0%,
           rgba(6, 87, 124, 0.4) 100%
         );
-        padding: 2vh 40px 2vh 40px;
-        height: 32.9vw;
+        padding: 2.5vh 62px 2.5vh 62px;
+        //height: 32.9vw;
         h2 {
           font-weight: 700;
-          font-size: 16px;
+          font-size: 14px;
         }
         p {
           font-weight: 400;
-          font-size: 9px;
+          font-size: 12px;
         }
         .ulFreelance {
           .liFreelance {
             color: #000;
             font-family: "Poppins", sans-serif;
-            font-size: 8px;
+            font-size: 10px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
           }
         }
         .button1 {
-          width: 200px;
+          width: 130px;
           border-radius: 100px;
           background: rgba(255, 255, 255, 0.1);
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -3263,9 +3071,9 @@ main {
           margin: 0 auto;
           border-style: none;
           color: #fff;
-          padding: 8px 16px;
+          padding: 6px 12px;
           font-family: "Poppins", sans-serif;
-          font-size: 1.2rem;
+          font-size: 1rem;
           cursor: pointer;
           transition: background-color 0.3s, color 0.3s;
           &:hover {
@@ -3273,10 +3081,9 @@ main {
             color: #000;
           }
         }
-        
       }
       .div2cardFreelance {
-        width: 50%;
+        width: 100%;
         height: 100%;
         .imágenrightFreelance {
           width: 100%;
@@ -3379,7 +3186,187 @@ main {
     }
   }
 }
+/* Ajustes page contacto */
 
+.mainContacto {
+  figure {
+    .imgBannerpages {
+      width: 112%;
+      height: 12vh;
+      z-index: -1;
+    }
+  }
+  .contenedor {
+    padding: 40px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .div1__formContacto {
+      width: 100%;
+      .formContacto {
+        .contacto-h2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 56px;
+          font-weight: 700;
+          text-align: left;
+          margin-bottom: 20px;
+
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .formContacto__inputtextNombre {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+
+        .formContacto__inputtextApellido {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextEmail {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextTareatext {
+          textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+        }
+        .contacto-button {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.5rem;
+          input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+          input[type="reset"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+        }
+      }
+    }
+    .div2__formContacto {
+      width: 100%;
+      justify-content: center;
+      div {
+        .pformContacto {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 2rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+#footer {
+  background: #E7EFF2 !important;
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  .social-icons {
+    display: inline-block;
+    margin: 0 10px;
+    i {
+      font-size: 4em;
+      margin-right: 15px;
+    }
+  }
+  p {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+  }
+}
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -3561,7 +3548,7 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 260px 0px 0px 0;///////ver////////
+      padding: 260px 0px 0px 0; ///////ver////////
       .div1cardFreelance {
         width: 100%;
         height: 100%;
@@ -3721,6 +3708,166 @@ main {
   }
 }
 
+/* Ajustes page contacto */
+
+.mainContacto {
+  figure {
+    .imgBannerpages {
+      width: 112%;
+      height: 12vh;
+      z-index: -1;
+    }
+  }
+  .contenedor {
+    padding: 40px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .div1__formContacto {
+      width: 100%;
+      .formContacto {
+        .contacto-h2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 56px;
+          font-weight: 700;
+          text-align: left;
+          margin-bottom: 20px;
+
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .formContacto__inputtextNombre {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+
+        .formContacto__inputtextApellido {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextEmail {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextTareatext {
+          textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+        }
+        .contacto-button {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.5rem;
+          input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+          input[type="reset"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+        }
+      }
+    }
+    .div2__formContacto {
+      width: 100%;
+      justify-content: center;
+      div {
+        .pformContacto {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 2rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -3752,7 +3899,7 @@ main {
         }
       }
     }
-    
+
     .card-container {
       width: 100%;
       padding: 0px;
@@ -3902,7 +4049,7 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 260px 0px 0px 0;///////ver////////
+      padding: 260px 0px 0px 0; ///////ver////////
       .div1cardFreelance {
         width: 100%;
         height: 100%;
@@ -4059,5 +4206,167 @@ main {
         }
       }
     }
+    
   }
+  /* Ajustes page contacto */
+
+.mainContacto {
+  figure {
+    .imgBannerpages {
+      width: 150%;
+      height: 12vh;
+      z-index: -1;
+    }
+  }
+  .contenedor {
+    padding: 40px 60px 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .div1__formContacto {
+      width: 100%;
+      .formContacto {
+        .contacto-h2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 56px;
+          font-weight: 700;
+          text-align: left;
+          margin-bottom: 20px;
+
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .formContacto__inputtextNombre {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+
+        .formContacto__inputtextApellido {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextEmail {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextTareatext {
+          textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+        }
+        .contacto-button {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.5rem;
+          input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+          input[type="reset"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+        }
+      }
+    }
+    .div2__formContacto {
+      width: 100%;
+      justify-content: center;
+      div {
+        .pformContacto {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 2rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
 }
