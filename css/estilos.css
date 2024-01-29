@@ -3033,7 +3033,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
   justify-content: center;
   align-items: center; }
   .mainContacto .contenedor .div1__formContacto {
-    width: 100%; }
+    width: 50%; }
     .mainContacto .contenedor .div1__formContacto .formContacto .contacto-h2 {
       font-family: "Poppins", sans-serif;
       font-size: 56px;
@@ -3133,7 +3133,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
           background-color: #a9acad;
           font-family: "Poppins", sans-serif; }
   .mainContacto .contenedor .div2__formContacto {
-    width: 100%;
+    width: 50%;
     justify-content: center; }
     .mainContacto .contenedor .div2__formContacto div .pformContacto {
       line-height: 2rem;
@@ -3415,127 +3415,167 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
         background-color: #fff;
         color: #000; } }
 
-/* Ajustes page contacto */
-.mainContacto figure .imgBannerpages {
-  width: 112%;
-  height: 12vh;
-  z-index: -1; }
+/* Ajustes page contacto 
 
-.mainContacto .contenedor {
-  padding: 40px 50px 40px 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .mainContacto .contenedor .div1__formContacto {
-    width: 100%; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .contacto-h2 {
-      font-family: "Poppins", sans-serif;
-      font-size: 56px;
-      font-weight: 700;
-      text-align: left;
-      margin-bottom: 20px;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextNombre .contacto-label {
-      line-height: 2rem;
-      font-family: "Poppins", sans-serif;
-      font-size: 1.5rem;
-      display: block;
-      margin-bottom: 5px; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextNombre input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px; }
-      .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextNombre input[type="text"] .contacto-input {
-        line-height: 2rem;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextApellido .contacto-label {
-      line-height: 2rem;
-      font-family: "Poppins", sans-serif;
-      font-size: 1.5rem;
-      display: block;
-      margin-bottom: 5px; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextApellido input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px; }
-      .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextApellido input[type="text"] .contacto-input {
-        line-height: 2rem;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextEmail .contacto-label {
-      line-height: 2rem;
-      font-family: "Poppins", sans-serif;
-      font-size: 1.5rem;
-      display: block;
-      margin-bottom: 5px; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextEmail input[type="text"] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px; }
-      .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextEmail input[type="text"] .contacto-input {
-        line-height: 2rem;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.5rem; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .formContacto__inputtextTareatext textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px; }
-    .mainContacto .contenedor .div1__formContacto .formContacto .contacto-button {
-      line-height: 2rem;
-      font-family: "Poppins", sans-serif;
-      font-size: 1.5rem; }
-      .mainContacto .contenedor .div1__formContacto .formContacto .contacto-button input[type="submit"] {
-        padding: 10px 20px;
-        margin-top: 10px;
-        background-color: #a9acad;
-        color: #000000;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        font-family: "Poppins", sans-serif; }
-        .mainContacto .contenedor .div1__formContacto .formContacto .contacto-button input[type="submit"]:hover {
-          background-color: #a9acad;
-          font-family: "Poppins", sans-serif; }
-      .mainContacto .contenedor .div1__formContacto .formContacto .contacto-button input[type="reset"] {
-        padding: 10px 20px;
-        margin-top: 10px;
-        background-color: #a9acad;
-        color: #000000;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        border-radius: 100px;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        font-family: "Poppins", sans-serif; }
-        .mainContacto .contenedor .div1__formContacto .formContacto .contacto-button input[type="reset"]:hover {
-          background-color: #a9acad;
-          font-family: "Poppins", sans-serif; }
-  .mainContacto .contenedor .div2__formContacto {
-    width: 100%;
-    justify-content: center; }
-    .mainContacto .contenedor .div2__formContacto div .pformContacto {
-      line-height: 2rem;
-      font-family: "Poppins", sans-serif;
-      font-size: 2rem;
-      font-weight: 700; }
+.mainContacto {
+  figure {
+    .imgBannerpages {
+      width: 112%;
+      height: 12vh;
+      z-index: -1;
+    }
+  }
+  .contenedor {
+    padding: 40px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    .div1__formContacto {
+      width: 50%;
+      .formContacto {
+        .contacto-h2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 56px;
+          font-weight: 700;
+          text-align: left;
+          margin-bottom: 20px;
+
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .formContacto__inputtextNombre {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+
+        .formContacto__inputtextApellido {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextEmail {
+          .contacto-label {
+            line-height: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 5px;
+          }
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            .contacto-input {
+              line-height: 2rem;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .formContacto__inputtextTareatext {
+          textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+        }
+        .contacto-button {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.5rem;
+          input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+          input[type="reset"] {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #a9acad;
+            color: #000000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-family: "Poppins", sans-serif;
+            &:hover {
+              background-color: #a9acad;
+              font-family: "Poppins", sans-serif;
+            }
+          }
+        }
+      }
+    }
+    .div2__formContacto {
+      width: 100%;
+      justify-content: center;
+      div {
+        .pformContacto {
+          line-height: 2rem;
+          font-family: "Poppins", sans-serif;
+          font-size: 2rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+*/
 @media screen and (min-width: 5px) and (max-width: 430px) {
   main .bannerInicio .figurebannerInicio .imgbanner {
     height: 52vw; }
@@ -3803,7 +3843,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
     justify-content: center;
     align-items: center; }
     .mainContacto .contenedor .div1__formContacto {
-      width: 100%; }
+      width: 50%; }
       .mainContacto .contenedor .div1__formContacto .formContacto .contacto-h2 {
         font-family: "Poppins", sans-serif;
         font-size: 56px;
@@ -3903,7 +3943,7 @@ main .bannerListadeservicios div div h2 .serviciosTítulopage {
             background-color: #a9acad;
             font-family: "Poppins", sans-serif; }
     .mainContacto .contenedor .div2__formContacto {
-      width: 100%;
+      width: 50%;
       justify-content: center; }
       .mainContacto .contenedor .div2__formContacto div .pformContacto {
         line-height: 2rem;
